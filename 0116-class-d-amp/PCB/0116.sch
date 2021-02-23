@@ -1643,7 +1643,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="U$1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device="">
-<attribute name="DOCUMENT_NUMBER" value="0116"/>
+<attribute name="DOCUMENT_NUMBER" value="Class-D Audio Amplifier"/>
 <attribute name="REV" value="A"/>
 </part>
 <part name="J1" library="op-amp" library_urn="urn:adsk.eagle:library:7076615" deviceset="PAM8302A" device="DFN-3X3" package3d_urn="urn:adsk.eagle:package:26663923/2" value="PAM8302A"/>
