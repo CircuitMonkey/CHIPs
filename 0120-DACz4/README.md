@@ -1,7 +1,7 @@
 # Circuit Monkey CHIPs &#35;0120 -- 4-channel I2C DAC
 
 ## Images
- <img src="Documents/assets/0120A-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0120A-preview-bottom.png" alt="Bottom View" width="386" />
+ <img src="Documents/assets/0120A-DACz4-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0120A-DACz4-preview-bottom.png" alt="Bottom View" width="386" />
 
 ## Technical Details
 * **Dimensions:** 10mm wide x 10mm tall  x 1.6mm PCB thickness
