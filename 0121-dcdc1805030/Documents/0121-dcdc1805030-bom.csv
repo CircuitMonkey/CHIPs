@@ -1,0 +1,12 @@
+"Part";"Value";"Device";"Package";"Description";"COST01";"MFR";"MPN";"VALUE";
+"C1";"10uF";"CAPACITOR0603";"0603-CAP";"Capacitor";"";"";"";"";
+"C2";"22uF x 2";"CAPACITOR0603";"0603-CAP";"Capacitor";"";"";"";"";
+"C3";"0.1uF";"CAPACITOR0603";"0603-CAP";"Capacitor";"";"";"";"";
+"E";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";
+"G";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";
+"I";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";
+"L1";"3.3uH";"INDUCTORSMD-05X04MM";"IND-SRN5040";"Inductor";"";"Bourns";"SRN5040-3R3M";"";
+"O";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";
+"R9";"52.3K";"RESISTOR0603";"0603-RES";"Resistor";"";"";"";"";
+"R10";"10K";"RESISTOR0603";"0603-RES";"Resistor";"";"";"";"";
+"VR";"AP62300";"BUCKAP62300";"SOT-563-6";"Buck Regulator";"0.50";"Diodes, Inc.";"AP62301Z6-7";"AP62300";

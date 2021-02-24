@@ -1660,7 +1660,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="U$1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device=""/>
+<part name="U$1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device="">
+<attribute name="DOCUMENT_NUMBER" value="0122 LiION Charger"/>
+<attribute name="REV" value="A"/>
+</part>
 <part name="B+" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="CHG" library="co-microchip" library_urn="urn:adsk.eagle:library:9738997" deviceset="MCP73831/2" device="-SOT23-5" package3d_urn="urn:adsk.eagle:package:7189798/2" value="MCP73831"/>
@@ -1691,6 +1694,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="91.44" y="1.27" size="2.54" layer="94" font="vector" ratio="15"/>
+<attribute name="DOCUMENT_NUMBER" x="160.02" y="6.096" size="3.81" layer="94" ratio="15"/>
+<attribute name="REV" x="241.808" y="8.382" size="3.81" layer="94" ratio="15" align="center"/>
 </instance>
 <instance part="B+" gate="G$1" x="137.16" y="121.92" smashed="yes">
 <attribute name="NAME" x="138.43" y="121.92" size="1.9304" layer="95" ratio="15" rot="R180" align="center-right"/>

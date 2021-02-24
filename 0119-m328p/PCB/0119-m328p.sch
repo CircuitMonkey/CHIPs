@@ -2246,7 +2246,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="U$1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device=""/>
+<part name="U$1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device="">
+<attribute name="DOCUMENT_NUMBER" value="0119 atMega328P controller"/>
+<attribute name="REV" value="A"/>
+</part>
 <part name="CPU" library="atmel-atmega" library_urn="urn:adsk.eagle:library:4151403" deviceset="ATMEGA328" device="MU" package3d_urn="urn:adsk.eagle:package:4151450/6" value="ATmega328P-MU"/>
 <part name="XTAL" library="xtal" library_urn="urn:adsk.eagle:library:4193208" deviceset="2P" device="3.2X2.5" package3d_urn="urn:adsk.eagle:package:4193218/2" value="16MHz"/>
 <part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0402" package3d_urn="urn:adsk.eagle:package:4193046/4" value="12pF"/>
@@ -2312,6 +2315,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="91.44" y="1.27" size="2.54" layer="94" font="vector" ratio="15"/>
+<attribute name="DOCUMENT_NUMBER" x="160.02" y="6.096" size="3.81" layer="94" ratio="15"/>
+<attribute name="REV" x="241.808" y="8.382" size="3.81" layer="94" ratio="15" align="center"/>
 </instance>
 <instance part="CPU" gate="G$1" x="88.9" y="106.68" smashed="yes">
 <attribute name="NAME" x="82.042" y="157.988" size="3.81" layer="95" ratio="15"/>
