@@ -1,7 +1,7 @@
 # Circuit Monkey CHIPs &#35;0117 -- Quad Low-Side FET
 
 ## Images
- <img src="Documents/assets/0117A-FETz4-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0117A-FETz4-preview-bottom.png" alt="Bottom View" width="386" />
+ <img src="Documents/assets/0117A-FETz4-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0117A-FETz4-preview-bottom.png" alt="Bottom View" width="386" /><img src="Documents/assets/0117A-FETz4-3D.png" alt="3D Rendering" width="386" />
 
 ## Technical Details
 * **Dimensions:** 18mm wide x 17mm tall  x 1.6mm PCB thickness

@@ -1,7 +1,7 @@
 # Circuit Monkey CHIPs &#35;0116 -- Class-D Audio Amplifier
 
 ## Images
- <img src="Documents/assets/0116A-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0116A-preview-bottom.png" alt="Bottom View" width="386" />
+ <img src="Documents/assets/0116A-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0116A-preview-bottom.png" alt="Bottom View" width="386" /><img src="Documents/assets/0116A-3D.png" alt="3D Rendering" width="386" />
 
 ## Technical Details
 * **Dimensions:** 11mm wide x 8mm tall  x 1.6mm PCB thickness

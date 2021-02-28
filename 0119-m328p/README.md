@@ -3,7 +3,7 @@
 A barebones ATmega328P running at 16MHz (5V only). Compatible with Arduino Pro/Pro-mini. No USB serial. Must be programmed directly via SPI using Atmel MKII or similar method.
 
 ## Images
- <img src="Documents/assets/0119A-m328p-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0119A-m328p-preview-bottom.png" alt="Bottom View" width="386" />
+ <img src="Documents/assets/0119A-m328p-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0119A-m328p-preview-bottom.png" alt="Bottom View" width="386" /><img src="Documents/assets/0119A-m328p-3D.png" alt="3D Rendering" width="386" />
 
 ## Technical Details
 * **Surface Mountable**

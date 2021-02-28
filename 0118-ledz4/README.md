@@ -1,7 +1,7 @@
 # Circuit Monkey CHIPs &#35;0118 -- Quad LED Indicator
 
 ## Images
- <img src="Documents/assets/0118A-LEDz-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0118A-LEDz-preview-bottom.png" alt="Bottom View" width="386" />
+ <img src="Documents/assets/0118A-LEDz-preview-top.png" alt="Top View" width="386" /> <img src="Documents/assets/0118A-LEDz-preview-bottom.png" alt="Bottom View" width="386" /><img src="Documents/assets/0118A-LEDz-3D.png" alt="3D Rendering" width="386" />
 
 ## Technical Details
 * **Dimensions:** 8mm wide x 10mm tall  x 1.6mm PCB thickness
