@@ -171,22 +171,22 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYmRlZGJl" projecturn="a.cGVyc29uYWw6dWUyYmRlZGJlIzIwMTgwNTA0MTMwNTkwMzU2" f3durn="urn:adsk.wipprod:dm.lineage:fvXdMKnyRQCM5xbRXtt_DA" pcbguid="24d05b2a-1246-4c44-96ab-2de78d544041" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3c9f44e6-cab8-4fbd-bfb2-c45ad3cdf7c3" lastsyncedrevisionid="3c9f44e6-cab8-4fbd-bfb2-c45ad3cdf7c3" lastboardhashguid="14c63275-3748-20df-5a01-bf4a7535c779" lastpushedtime="2021-03-12T03:41:59Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYmRlZGJl" projecturn="a.cGVyc29uYWw6dWUyYmRlZGJlIzIwMTgwNTA0MTMwNTkwMzU2" f3durn="urn:adsk.wipprod:dm.lineage:fvXdMKnyRQCM5xbRXtt_DA" pcbguid="" lastpulledtime="2021-03-12T15:49:04Z" lastsyncedchangeguid="" latestrevisionid="64e3a9ba-d7b2-42d2-8ed8-56f0af8ccf4e" lastsyncedrevisionid="64e3a9ba-d7b2-42d2-8ed8-56f0af8ccf4e" lastboardhashguid="221559be-f6ec-b4f4-8e26-f68d7dc8eb51" lastpushedtime="2021-03-12T15:50:24Z" linktopcb3d="true"/>
 <plain>
-<wire x1="1" y1="0" x2="7" y2="0" width="0" layer="20"/>
-<wire x1="7" y1="0" x2="8" y2="1" width="0" layer="20"/>
-<wire x1="8" y1="1" x2="8" y2="10" width="0" layer="20"/>
-<wire x1="8" y1="10" x2="7" y2="11" width="0" layer="20"/>
-<wire x1="7" y1="11" x2="1" y2="11" width="0" layer="20"/>
-<wire x1="1" y1="11" x2="0" y2="10" width="0" layer="20"/>
-<wire x1="0" y1="10" x2="0" y2="1" width="0" layer="20"/>
-<wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20"/>
 <text x="6.858" y="1.143" size="0.7" layer="21" align="center">GND</text>
 <text x="1.143" y="1.143" size="0.7" layer="21" align="center">GND</text>
 <text x="4" y="10.55" size="0.9" layer="21" ratio="15" align="top-center">3  5</text>
 <text x="4.7" y="6.2" size="1.2" layer="22" ratio="15" rot="MR270" align="center">0124A</text>
 <text x="3.25" y="5.75" size="1" layer="22" rot="MR270" align="center">Level Shifter</text>
 <text x="6.4" y="5.55" size="0.9" layer="22" rot="MR270" align="center">Circuit Monkey</text>
+<wire x1="0" y1="10" x2="0" y2="1" width="0" layer="20"/>
+<wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20"/>
+<wire x1="1" y1="0" x2="7" y2="0" width="0" layer="20"/>
+<wire x1="7" y1="0" x2="8" y2="1" width="0" layer="20"/>
+<wire x1="8" y1="1" x2="8" y2="10" width="0" layer="20"/>
+<wire x1="8" y1="10" x2="7" y2="11" width="0" layer="20"/>
+<wire x1="7" y1="11" x2="1" y2="11" width="0" layer="20"/>
+<wire x1="1" y1="11" x2="0" y2="10" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="transistor-fet" urn="urn:adsk.eagle:library:7191487">
