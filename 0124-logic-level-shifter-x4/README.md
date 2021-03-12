@@ -1,7 +1,7 @@
 # Circuit Monkey CHIPs &#35;0124 -- Logic Level Shifter
 
 ## Images
- <img src="Documents/assets/0124A-logic-levelshifter-3D.png" alt="3D rendering" width="300" /><img src="Documents/assets/0124A-logic-levelshifter-preview-top.png" alt="Top View" width="300" /> <img src="Documents/assets/0124A-logic-levelshifter-preview-bottom.png" alt="Bottom View" width="300" />
+ <img src="Documents/assets/0124A-logic-level-shifter-3D.png" alt="3D rendering" width="300" /><img src="Documents/assets/0124A-logic-levelshifter-preview-top.png" alt="Top View" width="300" /> <img src="Documents/assets/0124A-logic-levelshifter-preview-bottom.png" alt="Bottom View" width="300" />
 
 ## Technical Details
 * For shifting logic levels between 3.3V and 5V signals (like mixed voltage I2C busses).
