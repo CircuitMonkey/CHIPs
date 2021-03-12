@@ -1,0 +1,9 @@
+"Part";"Value";"Device";"Package";"Description";"COST01";"COST100";"MFR";"MPN";"VALUE";
+"C1";"0.1uF";"CAPACITOR0402";"0402-CAP";"Capacitor";"";"";"";"";"";
+"GND";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";"";
+"R1";"4.7K";"RESISTOR0402";"0402-RES";"Resistor";"";"";"";"";"";
+"R2";"4.7K";"RESISTOR0402";"0402-RES";"Resistor";"";"";"";"";"";
+"SCL";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";"";
+"SDA";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";"";
+"TH1";"Temp/Humid";"I2C-SHTC3";"SHTC3";"I2C Type Sensor";"2.50";"1.50";"Sensiron";"SHTC3";"Temp/Humid";
+"VDD";"CAST-01X12.00MM";"CAST-01X12.00MM";"CAST01-2.00MM";"Castelated Edge Hole Pad";"";"";"";"";"";
