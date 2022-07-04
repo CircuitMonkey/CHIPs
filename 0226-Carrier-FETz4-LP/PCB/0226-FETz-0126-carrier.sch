@@ -57,8 +57,15 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -70,6 +77,112 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Flex-Kleb" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="102" name="Mittellin" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="top_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="tTraceCut" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tPatch" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bTraceCut" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bPatch" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="MyDrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="15" fill="10" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="no"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -2344,7 +2457,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="SHEET1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device=""/>
+<part name="SHEET1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device="">
+<attribute name="DOCUMENT_NUMBER" value="0226 - carrier - FETz4 (Low Power/Signal)"/>
+<attribute name="REV" value="A"/>
+</part>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="LOADS" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_08X1" device="-VT-THD" package3d_urn="urn:adsk.eagle:package:33040361/2" value="Header, 8-pin"/>
 <part name="IO" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_05X1" device="-MA-VT-THD" package3d_urn="urn:adsk.eagle:package:26648769/2"/>
@@ -2356,6 +2472,35 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
+<text x="134.62" y="121.92" size="5.08" layer="97" align="center">LOAD</text>
+<text x="172.974" y="117.348" size="5.08" layer="97" distance="20" align="center">Power
+Source</text>
+<wire x1="124.46" y1="129.54" x2="134.62" y2="129.54" width="0.6096" layer="97"/>
+<wire x1="134.62" y1="129.54" x2="144.78" y2="129.54" width="0.6096" layer="97"/>
+<wire x1="144.78" y1="129.54" x2="144.78" y2="114.3" width="0.6096" layer="97"/>
+<wire x1="144.78" y1="114.3" x2="134.62" y2="114.3" width="0.6096" layer="97"/>
+<wire x1="134.62" y1="114.3" x2="124.46" y2="114.3" width="0.6096" layer="97"/>
+<wire x1="124.46" y1="114.3" x2="124.46" y2="129.54" width="0.6096" layer="97"/>
+<wire x1="157.48" y1="129.54" x2="157.48" y2="109.22" width="0.6096" layer="97"/>
+<wire x1="157.48" y1="109.22" x2="172.72" y2="109.22" width="0.6096" layer="97"/>
+<wire x1="172.72" y1="109.22" x2="187.96" y2="109.22" width="0.6096" layer="97"/>
+<wire x1="187.96" y1="109.22" x2="187.96" y2="129.54" width="0.6096" layer="97"/>
+<wire x1="187.96" y1="129.54" x2="172.72" y2="129.54" width="0.6096" layer="97"/>
+<wire x1="172.72" y1="129.54" x2="157.48" y2="129.54" width="0.6096" layer="97"/>
+<wire x1="172.72" y1="129.54" x2="172.72" y2="134.62" width="0.254" layer="97"/>
+<wire x1="172.72" y1="134.62" x2="134.62" y2="134.62" width="0.254" layer="97"/>
+<wire x1="134.62" y1="134.62" x2="134.62" y2="129.54" width="0.254" layer="97"/>
+<text x="177.8" y="134.62" size="5.08" layer="97" align="center">+</text>
+<text x="180.34" y="106.68" size="5.08" layer="97" align="center">-</text>
+<wire x1="114.3" y1="104.14" x2="172.72" y2="104.14" width="0.254" layer="97"/>
+<wire x1="172.72" y1="104.14" x2="172.72" y2="109.22" width="0.254" layer="97"/>
+<wire x1="114.3" y1="106.68" x2="134.62" y2="106.68" width="0.254" layer="97"/>
+<wire x1="134.62" y1="106.68" x2="134.62" y2="114.3" width="0.254" layer="97"/>
+<text x="129.54" y="134.62" size="5.08" layer="97" align="center">+</text>
+<text x="127" y="109.22" size="5.08" layer="97" align="center">-</text>
+<text x="149.86" y="139.7" size="2.54" layer="97" ratio="15" align="center">Example Hookup:</text>
+<text x="172.72" y="127" size="2.54" layer="97" ratio="15" align="center">5-15VDC</text>
+<text x="162.56" y="106.68" size="2.54" layer="97" ratio="15" align="center">GROUND</text>
 </plain>
 <instances>
 <instance part="SHEET1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -2363,30 +2508,32 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="91.44" y="1.27" size="2.54" layer="94" font="vector" ratio="15"/>
+<attribute name="DOCUMENT_NUMBER" x="149.86" y="6.096" size="3.302" layer="94" ratio="15"/>
+<attribute name="REV" x="241.808" y="8.382" size="3.81" layer="94" ratio="15" align="center"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="119.38" y="93.98" smashed="yes">
-<attribute name="VALUE" x="119.38" y="91.313" size="0.6096" layer="96" font="vector" align="center"/>
+<instance part="SUPPLY1" gate="GND" x="66.04" y="86.36" smashed="yes">
+<attribute name="VALUE" x="66.04" y="83.693" size="0.6096" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="LOADS" gate="G$1" x="162.56" y="106.68" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="163.83" y="107.696" size="1.016" layer="96" rot="MR90" align="center"/>
-<attribute name="NAME" x="163.068" y="116.84" size="1.778" layer="95" ratio="15" rot="MR0" align="center"/>
+<instance part="LOADS" gate="G$1" x="109.22" y="99.06" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="110.49" y="100.076" size="1.016" layer="96" rot="MR90" align="center"/>
+<attribute name="NAME" x="109.728" y="109.22" size="1.778" layer="95" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="IO" gate="G$1" x="101.6" y="104.14" smashed="yes">
-<attribute name="VALUE" x="100.33" y="104.14" size="0.762" layer="96" rot="R90" align="center"/>
-<attribute name="NAME" x="101.092" y="111.76" size="1.778" layer="95" ratio="15" align="center"/>
+<instance part="IO" gate="G$1" x="48.26" y="96.52" smashed="yes">
+<attribute name="VALUE" x="46.99" y="96.52" size="0.762" layer="96" rot="R90" align="center"/>
+<attribute name="NAME" x="47.752" y="104.14" size="1.778" layer="95" ratio="15" align="center"/>
 </instance>
-<instance part="CHP-0126" gate="G$1" x="129.54" y="106.68" smashed="yes">
-<attribute name="NAME" x="129.54" y="119.634" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="129.54" y="116.84" size="1.016" layer="96" font="vector" align="center"/>
+<instance part="CHP-0126" gate="G$1" x="76.2" y="99.06" smashed="yes">
+<attribute name="NAME" x="76.2" y="112.014" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="76.2" y="109.22" size="1.016" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="106.68" y="99.06" smashed="yes">
-<attribute name="VALUE" x="106.68" y="96.393" size="0.6096" layer="96" font="vector" align="center"/>
+<instance part="SUPPLY2" gate="GND" x="53.34" y="91.44" smashed="yes">
+<attribute name="VALUE" x="53.34" y="88.773" size="0.6096" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="SUPPLY3" gate="GND" x="139.7" y="93.98" smashed="yes">
-<attribute name="VALUE" x="139.7" y="91.313" size="0.6096" layer="96" font="vector" align="center"/>
+<instance part="SUPPLY3" gate="GND" x="86.36" y="86.36" smashed="yes">
+<attribute name="VALUE" x="86.36" y="83.693" size="0.6096" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="152.4" y="93.98" smashed="yes">
-<attribute name="VALUE" x="152.4" y="91.313" size="0.6096" layer="96" font="vector" align="center"/>
+<instance part="SUPPLY4" gate="GND" x="99.06" y="86.36" smashed="yes">
+<attribute name="VALUE" x="99.06" y="83.693" size="0.6096" layer="96" font="vector" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -2407,77 +2554,77 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<wire x1="152.4" y1="93.98" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="86.36" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="LOADS" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="96.52" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="101.6" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="106.68" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="88.9" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="99.06" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="LOADS" gate="G$1" pin="4"/>
-<wire x1="154.94" y1="106.68" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
-<junction x="152.4" y="106.68"/>
+<wire x1="101.6" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<junction x="99.06" y="99.06"/>
 <pinref part="LOADS" gate="G$1" pin="6"/>
-<wire x1="154.94" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
-<junction x="152.4" y="101.6"/>
+<wire x1="101.6" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
+<junction x="99.06" y="93.98"/>
 <pinref part="LOADS" gate="G$1" pin="8"/>
-<wire x1="154.94" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
-<junction x="152.4" y="96.52"/>
+<wire x1="101.6" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+<junction x="99.06" y="88.9"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="CHP-0126" gate="G$1" pin="1"/>
 <pinref part="IO" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="CHP-0126" gate="G$1" pin="2"/>
 <pinref part="IO" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="CHP-0126" gate="G$1" pin="3"/>
 <pinref part="IO" gate="G$1" pin="3"/>
-<wire x1="121.92" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="CHP-0126" gate="G$1" pin="4"/>
 <pinref part="IO" gate="G$1" pin="4"/>
-<wire x1="121.92" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="LOADS" gate="G$1" pin="1"/>
 <pinref part="CHP-0126" gate="G$1" pin="L1"/>
-<wire x1="154.94" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="CHP-0126" gate="G$1" pin="L2"/>
 <pinref part="LOADS" gate="G$1" pin="3"/>
-<wire x1="139.7" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="CHP-0126" gate="G$1" pin="L3"/>
 <pinref part="LOADS" gate="G$1" pin="5"/>
-<wire x1="139.7" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="CHP-0126" gate="G$1" pin="L4"/>
 <pinref part="LOADS" gate="G$1" pin="7"/>
-<wire x1="139.7" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -2486,6 +2633,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

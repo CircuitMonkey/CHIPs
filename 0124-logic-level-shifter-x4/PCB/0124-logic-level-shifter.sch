@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -215,7 +229,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/1" library_version="1">
+<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/1" locally_modified="yes" prefix="SHEET" library_version="1" library_locally_modified="yes">
 <description>Circuit Monkey Letter Frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -403,7 +417,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="FET_N" urn="urn:adsk.eagle:symbol:7191500/1" library_version="11">
+<symbol name="FET_N" urn="urn:adsk.eagle:symbol:7191500/2" library_version="18" library_locally_modified="yes">
 <description>N-FET</description>
 <wire x1="0" y1="1.524" x2="-0.762" y2="1.524" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
@@ -419,6 +433,7 @@
 <wire x1="1.27" y1="-0.508" x2="1.27" y2="-1.524" width="0.1524" layer="94"/>
 <wire x1="0" y1="1.524" x2="0" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="-1.524" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
 <text x="2.54" y="-1.016" size="0.8128" layer="96">&gt;VALUE</text>
 <text x="2.54" y="0" size="1.778" layer="95" ratio="15">&gt;NAME</text>
 <text x="-2.032" y="0.762" size="0.6096" layer="94" font="vector" ratio="15" align="center">G</text>
@@ -429,9 +444,9 @@
 <rectangle x1="-1.016" y1="1.016" x2="-0.762" y2="2.032" layer="94"/>
 <rectangle x1="-1.016" y1="-0.508" x2="-0.762" y2="0.508" layer="94"/>
 <rectangle x1="-1.016" y1="-2.032" x2="-0.762" y2="-1.016" layer="94"/>
-<pin name="D" x="0" y="2.54" visible="off" length="point" swaplevel="1" rot="R270"/>
-<pin name="S" x="0" y="-2.54" visible="off" length="point" swaplevel="1" rot="R90"/>
-<pin name="G" x="-2.54" y="0" visible="off" length="short" swaplevel="1"/>
+<pin name="D" x="0" y="2.54" visible="pad" length="point" swaplevel="1" rot="R270"/>
+<pin name="S" x="0" y="-2.54" visible="pad" length="point" swaplevel="1" rot="R90"/>
+<pin name="G" x="-2.54" y="0" visible="pad" length="point" swaplevel="1"/>
 <polygon width="0.127" layer="94">
 <vertex x="-0.762" y="0"/>
 <vertex x="-0.254" y="0.254"/>
@@ -447,7 +462,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="N-FET_DUAL" urn="urn:adsk.eagle:component:7191509/8" prefix="Q" uservalue="yes" library_version="12">
+<deviceset name="N-FET_DUAL" urn="urn:adsk.eagle:component:7191509/9" prefix="Q" uservalue="yes" library_version="18" library_locally_modified="yes">
 <description>Dual FET</description>
 <gates>
 <gate name="-1" symbol="FET_N" x="0" y="7.62" addlevel="always"/>
@@ -779,7 +794,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="CAST_01X1" urn="urn:adsk.eagle:symbol:14150084/2" library_version="26" library_locally_modified="yes">
+<symbol name="CAST_01X1" urn="urn:adsk.eagle:symbol:14150084/3" library_version="34" library_locally_modified="yes">
 <description>Pad, Castelated</description>
 <polygon width="0.254" layer="94">
 <vertex x="0" y="0.508" curve="90"/>
@@ -791,11 +806,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </polygon>
 <pin name="1" x="-2.54" y="0" visible="off" length="point"/>
 <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<text x="1.27" y="0" size="1.9304" layer="95" ratio="15" rot="R180" align="center-right">&gt;NAME</text>
+<text x="1.27" y="0" size="1.7272" layer="95" ratio="15" rot="R180" align="center-right">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAST-01X1" urn="urn:adsk.eagle:component:14150086/5" prefix="CST" library_version="26" library_locally_modified="yes">
+<deviceset name="CAST-01X1" urn="urn:adsk.eagle:component:14150086/6" prefix="CST" library_version="34" library_locally_modified="yes">
 <description>Castelated Edge Hole Pad</description>
 <gates>
 <gate name="G$1" symbol="CAST_01X1" x="0" y="0"/>

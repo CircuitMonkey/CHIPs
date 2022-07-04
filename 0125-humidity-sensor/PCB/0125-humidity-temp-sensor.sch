@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -215,7 +229,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/1" library_version="1">
+<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/1" locally_modified="yes" prefix="SHEET" library_version="1" library_locally_modified="yes">
 <description>Circuit Monkey Letter Frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -470,17 +484,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-1.524" y1="-1.27" x2="-0.762" y2="1.27" layer="51"/>
 <rectangle x1="0.762" y1="-1.27" x2="1.524" y2="1.27" layer="51"/>
 </package>
-<package name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:footprint:4192936/1" library_version="33">
-<description>Capacitor, Caramic, THD</description>
-<pad name="1" x="-2.54" y="0" drill="0.8" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<wire x1="-3.556" y1="1.016" x2="3.556" y2="1.016" width="0.127" layer="21"/>
-<wire x1="3.556" y1="1.016" x2="3.556" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="3.556" y1="-1.016" x2="-3.556" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-3.556" y1="-1.016" x2="-3.556" y2="1.016" width="0.127" layer="21"/>
-<text x="0" y="0" size="0.6096" layer="27" align="center">&gt;VALUE</text>
-<text x="0" y="2.032" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="CAP_CER_THD_2.5MM" urn="urn:adsk.eagle:footprint:4192937/1" library_version="33">
 <description>Capacitor, Ceramic Disc, 2.5mm lead spacing.</description>
 <pad name="1" x="-1.27" y="0" drill="0.8" shape="square"/>
@@ -582,25 +585,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 <rectangle x1="-1.016" y1="-0.635" x2="-0.6096" y2="0.6223" layer="51"/>
 <rectangle x1="0.6096" y1="-0.6223" x2="1.016" y2="0.6349" layer="51" rot="R180"/>
-</package>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/1" library_version="33">
-<description>0603 Resistor</description>
-<wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
-<wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
-<wire x1="1.2746" y1="0.5484" x2="1.2746" y2="-0.5484" width="0.1" layer="21"/>
-<wire x1="1.2746" y1="-0.5484" x2="0.4" y2="-0.5484" width="0.1" layer="21"/>
-<wire x1="-0.4" y1="-0.5484" x2="-1.2746" y2="-0.5484" width="0.1" layer="21"/>
-<wire x1="-1.2746" y1="-0.5484" x2="-1.2746" y2="0.5484" width="0.1" layer="21"/>
-<wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0" layer="51"/>
-<wire x1="0.762" y1="0.381" x2="0.762" y2="-0.381" width="0" layer="51"/>
-<wire x1="0.762" y1="-0.381" x2="-0.762" y2="-0.381" width="0" layer="51"/>
-<wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
-<smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
-<rectangle x1="-0.762" y1="-0.381" x2="-0.508" y2="0.381" layer="51"/>
-<rectangle x1="0.508" y1="-0.381" x2="0.762" y2="0.381" layer="51"/>
 </package>
 <package name="R_THD_610/236" urn="urn:adsk.eagle:footprint:4192930/1" library_version="33">
 <description>Resistor, THD, 2 Watt</description>
@@ -750,14 +734,39 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-4.572" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.572" y2="0.254" layer="51"/>
 </package>
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/1" locally_modified="yes" library_version="43" library_locally_modified="yes">
+<description>0603 Resistor</description>
+<wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
+<wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
+<wire x1="1.2746" y1="0.5484" x2="1.2746" y2="-0.5484" width="0.1" layer="21"/>
+<wire x1="1.2746" y1="-0.5484" x2="0.4" y2="-0.5484" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="-0.5484" x2="-1.2746" y2="-0.5484" width="0.1" layer="21"/>
+<wire x1="-1.2746" y1="-0.5484" x2="-1.2746" y2="0.5484" width="0.1" layer="21"/>
+<wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0" layer="51"/>
+<wire x1="0.762" y1="0.381" x2="0.762" y2="-0.381" width="0" layer="51"/>
+<wire x1="0.762" y1="-0.381" x2="-0.762" y2="-0.381" width="0" layer="51"/>
+<wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
+<smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
+<smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
+<text x="1.524" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<rectangle x1="-0.762" y1="-0.381" x2="-0.508" y2="0.381" layer="51"/>
+<rectangle x1="0.508" y1="-0.381" x2="0.762" y2="0.381" layer="51"/>
+</package>
+<package name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:footprint:4192936/2" library_version="43" library_locally_modified="yes">
+<description>Capacitor, Caramic, THD</description>
+<pad name="1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="0.8"/>
+<wire x1="-3.556" y1="1.016" x2="3.556" y2="1.016" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.016" x2="3.556" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-1.016" x2="-3.556" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-1.016" x2="-3.556" y2="1.016" width="0.127" layer="21"/>
+<text x="0" y="-1.524" size="0.6096" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.032" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.762" layer="21" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:4192976/1" type="box" library_version="33">
-<description>SMT 1206 Package</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
 <package3d name="0805-CAP" urn="urn:adsk.eagle:package:4193041/2" type="model" library_version="33">
 <packageinstances>
 <packageinstance name="0805-CAP"/>
@@ -774,12 +783,6 @@ In this library the device names are the same as the pin names of the symbols, t
 &lt;p&gt;Chip package with body size 3.17 X 2.51 X 1.27 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="1210-CAP"/>
-</packageinstances>
-</package3d>
-<package3d name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:package:4192947/2" type="model" library_version="33">
-<description>Capacitor, Caramic, THD</description>
-<packageinstances>
-<packageinstance name="CAP_CER_THD_5MM"/>
 </packageinstances>
 </package3d>
 <package3d name="CAP_CER_THD_2.5MM" urn="urn:adsk.eagle:package:4192946/1" type="box" library_version="33">
@@ -808,12 +811,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3d name="0805-RES" urn="urn:adsk.eagle:package:4193042/2" type="model" library_version="33">
 <packageinstances>
 <packageinstance name="0805-RES"/>
-</packageinstances>
-</package3d>
-<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/2" type="model" library_version="33">
-<description>0603 Resistor</description>
-<packageinstances>
-<packageinstance name="0603-RES"/>
 </packageinstances>
 </package3d>
 <package3d name="R_THD_610/236" urn="urn:adsk.eagle:package:4192953/1" type="box" library_version="33">
@@ -852,6 +849,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="R_THD_0.25W"/>
 </packageinstances>
 </package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:4192976/2" type="model" library_version="43" library_locally_modified="yes">
+<description>SMT 1206 Package</description>
+<packageinstances>
+<packageinstance name="1206"/>
+</packageinstances>
+</package3d>
+<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/2" type="model" library_version="43" library_locally_modified="yes">
+<description>0603 Resistor</description>
+<packageinstances>
+<packageinstance name="0603-RES"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:package:4192947/3" type="model" library_version="43" library_locally_modified="yes">
+<description>Capacitor, Caramic, THD</description>
+<packageinstances>
+<packageinstance name="CAP_CER_THD_5MM"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CAP-NP" urn="urn:adsk.eagle:symbol:4192922/1" library_version="33">
@@ -882,7 +897,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/9" prefix="C" uservalue="yes" library_version="33">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/12" locally_modified="yes" prefix="C" uservalue="yes" library_version="43" library_locally_modified="yes">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -894,7 +909,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4192976/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4192976/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -909,7 +924,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4193041/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COST01" value="0.12" constant="no"/>
+<attribute name="COST10" value="0.09" constant="no"/>
+<attribute name="COST100" value="0.05" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0603-OLD" package="0603">
@@ -942,7 +961,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4192947/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4192947/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -973,7 +992,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4193046/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COST01" value="0.12" constant="no"/>
+<attribute name="COST10" value="0.09" constant="no"/>
+<attribute name="COST100" value="0.04" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0603" package="0603-CAP">
@@ -985,12 +1008,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COST01" value="0.12" constant="no"/>
+<attribute name="COST10" value="0.09" constant="no"/>
+<attribute name="COST100" value="0.05" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/8" prefix="R" uservalue="yes" library_version="33">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/10" locally_modified="yes" prefix="R" uservalue="yes" library_version="43" library_locally_modified="yes">
 <description>Resistor</description>
 <gates>
 <gate name="G$1" symbol="RES-EU" x="0" y="0"/>
@@ -1014,7 +1041,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4192976/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4192976/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1029,7 +1056,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4193042/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COST01" value="0.10" constant="no"/>
+<attribute name="COST10" value="0.05" constant="no"/>
+<attribute name="COST100" value="0.02" constant="no"/>
+<attribute name="VALUE" value="XXX" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0603" package="0603-RES">
@@ -1041,7 +1073,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COST01" value="0.10" constant="no"/>
+<attribute name="COST10" value="0.05" constant="no"/>
+<attribute name="COST100" value="0.02" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="THD_610/236" package="R_THD_610/236">
@@ -1101,7 +1137,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4193045/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COST01" value="0.10" constant="no"/>
+<attribute name="COST10" value="0.05" constant="no"/>
+<attribute name="COST100" value="0.02" constant="no"/>
+<attribute name="VALUE" value="XXX" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="THD_0.25_WATT" package="R_THD_0.25W">
@@ -1169,7 +1210,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="CAST_01X1" urn="urn:adsk.eagle:symbol:14150084/2" library_version="26" library_locally_modified="yes">
+<symbol name="CAST_01X1" urn="urn:adsk.eagle:symbol:14150084/3" library_version="34" library_locally_modified="yes">
 <description>Pad, Castelated</description>
 <polygon width="0.254" layer="94">
 <vertex x="0" y="0.508" curve="90"/>
@@ -1181,11 +1222,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </polygon>
 <pin name="1" x="-2.54" y="0" visible="off" length="point"/>
 <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<text x="1.27" y="0" size="1.9304" layer="95" ratio="15" rot="R180" align="center-right">&gt;NAME</text>
+<text x="1.27" y="0" size="1.7272" layer="95" ratio="15" rot="R180" align="center-right">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAST-01X1" urn="urn:adsk.eagle:component:14150086/5" prefix="CST" library_version="26" library_locally_modified="yes">
+<deviceset name="CAST-01X1" urn="urn:adsk.eagle:component:14150086/6" prefix="CST" library_version="34" library_locally_modified="yes">
 <description>Castelated Edge Hole Pad</description>
 <gates>
 <gate name="G$1" symbol="CAST_01X1" x="0" y="0"/>
@@ -1234,8 +1275,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="TH1" library="temperature" library_urn="urn:adsk.eagle:library:27328175" deviceset="I2C" device="-SHTC3" package3d_urn="urn:adsk.eagle:package:27444106/2" value="Temp/Humid"/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VDD" device=""/>
 <part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0402" package3d_urn="urn:adsk.eagle:package:4193046/4" value="0.1uF"/>
-<part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:4193045/3" value="4.7K"/>
-<part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:4193045/3" value="4.7K"/>
+<part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:4193045/3" value="XXX"/>
+<part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:4193045/3" value="XXX"/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SCL" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="SDA" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
