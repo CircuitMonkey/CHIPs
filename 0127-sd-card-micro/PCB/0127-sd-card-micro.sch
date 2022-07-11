@@ -321,122 +321,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="con-memory-card">
-<packages>
-<package name="MOLEX_1040310811_USD">
-<description>Molex microSD 1040310811</description>
-<wire x1="-6" y1="5.7" x2="6" y2="5.7" width="0.127" layer="51"/>
-<wire x1="6" y1="5.7" x2="6" y2="-5.7" width="0.127" layer="51"/>
-<wire x1="6" y1="-5.7" x2="-6" y2="-5.7" width="0.127" layer="51"/>
-<wire x1="-6" y1="-5.7" x2="-6" y2="5.7" width="0.127" layer="51"/>
-<wire x1="-5.5" y1="-5.7" x2="-5.5" y2="-9.7" width="0.127" layer="51"/>
-<wire x1="-5.5" y1="-9.7" x2="5.5" y2="-9.7" width="0.127" layer="51"/>
-<wire x1="5.5" y1="-9.7" x2="5.5" y2="-5.7" width="0.127" layer="51"/>
-<text x="0" y="-8.89" size="0.6096" layer="51" align="center">Inserted Card</text>
-<rectangle x1="-0.245" y1="-5.65" x2="0.095" y2="-4.75" layer="51"/>
-<rectangle x1="-1.345" y1="-5.65" x2="-1.005" y2="-4.75" layer="51"/>
-<rectangle x1="-2.445" y1="-5.65" x2="-2.105" y2="-4.75" layer="51"/>
-<rectangle x1="-3.545" y1="-5.65" x2="-3.205" y2="-4.75" layer="51"/>
-<rectangle x1="0.855" y1="-5.65" x2="1.195" y2="-4.75" layer="51"/>
-<rectangle x1="1.955" y1="-5.65" x2="2.295" y2="-4.75" layer="51"/>
-<rectangle x1="3.055" y1="-5.65" x2="3.395" y2="-4.75" layer="51"/>
-<rectangle x1="-4.645" y1="-5.65" x2="-4.305" y2="-4.75" layer="51"/>
-<smd name="4" x="-0.07" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
-<smd name="5" x="-1.17" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
-<smd name="6" x="-2.27" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
-<smd name="7" x="-3.37" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
-<smd name="8" x="-4.42" y="-5.503" dx="1.1" dy="0.75" layer="1" roundness="30" rot="R90"/>
-<smd name="3" x="1.03" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
-<smd name="2" x="2.13" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
-<smd name="1" x="3.23" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
-<smd name="MT2" x="-5.755" y="-5.2" dx="1.8" dy="1.17" layer="1" roundness="30" rot="R90"/>
-<smd name="MT1" x="5.565" y="-5.4" dx="1.35" dy="1.55" layer="1" roundness="30" rot="R90"/>
-<smd name="MT3" x="-3.73" y="5.375" dx="1.9" dy="1.35" layer="1" roundness="30"/>
-<smd name="MT4" x="2.24" y="5.375" dx="1.9" dy="1.35" layer="1" roundness="30"/>
-<smd name="DET1" x="5.74" y="0.7" dx="1.2" dy="1" layer="1" roundness="30"/>
-<smd name="DET2" x="5.74" y="4.4" dx="1.2" dy="1" layer="1" roundness="30"/>
-<text x="0" y="7.7" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-2.2" size="0.762" layer="27" font="vector" align="center">&gt;VALUE</text>
-<wire x1="-5" y1="5.7" x2="-6" y2="5.7" width="0.127" layer="21"/>
-<wire x1="-6" y1="5.7" x2="-6" y2="-4" width="0.127" layer="21"/>
-<wire x1="3.9" y1="-5.7" x2="4.5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="6" y1="-4.4" x2="6" y2="0" width="0.127" layer="21"/>
-<wire x1="6" y1="1.4" x2="6" y2="3.7" width="0.127" layer="21"/>
-<wire x1="3.4" y1="5.7" x2="6" y2="5.7" width="0.127" layer="21"/>
-<wire x1="6" y1="5.7" x2="6" y2="5.1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="5.7" x2="1.1" y2="5.7" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MICRO_SD_CARD">
-<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-17.78" width="0.6096" layer="94"/>
-<wire x1="-15.24" y1="-17.78" x2="17.78" y2="-17.78" width="0.6096" layer="94"/>
-<wire x1="17.78" y1="-17.78" x2="17.78" y2="-10.16" width="0.6096" layer="94"/>
-<wire x1="17.78" y1="-10.16" x2="15.24" y2="-7.62" width="0.6096" layer="94" curve="-90"/>
-<wire x1="15.24" y1="-7.62" x2="15.24" y2="7.62" width="0.6096" layer="94"/>
-<wire x1="15.24" y1="7.62" x2="17.78" y2="10.16" width="0.6096" layer="94" curve="-90"/>
-<wire x1="17.78" y1="10.16" x2="17.78" y2="15.24" width="0.6096" layer="94"/>
-<wire x1="17.78" y1="15.24" x2="-15.24" y2="15.24" width="0.6096" layer="94"/>
-<wire x1="-5.08" y1="12.7" x2="-7.62" y2="10.16" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-7.62" y1="-10.16" x2="25.4" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
-<wire x1="25.4" y1="-10.16" x2="25.4" y2="12.7" width="0.254" layer="94" style="shortdash"/>
-<wire x1="25.4" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94" style="shortdash"/>
-<text x="-12.7" y="16.002" size="2.54" layer="95" ratio="15">&gt;NAME</text>
-<text x="-5.08" y="13.081" size="1.6764" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="0" size="2.54" layer="94" ratio="20">SD Card</text>
-<pin name="D1" x="-20.32" y="12.7" length="middle"/>
-<pin name="GND" x="-20.32" y="7.62" length="middle" direction="pwr"/>
-<pin name="D0" x="-20.32" y="10.16" length="middle"/>
-<pin name="+V3" x="-20.32" y="2.54" length="middle" direction="pwr"/>
-<pin name="CLK" x="-20.32" y="5.08" length="middle" direction="in" function="clk"/>
-<pin name="D3" x="-20.32" y="-2.54" length="middle"/>
-<pin name="D2" x="-20.32" y="-5.08" length="middle"/>
-<pin name="CMD" x="-20.32" y="0" length="middle"/>
-<pin name="GND@MT1" x="15.24" y="-22.86" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND@MT2" x="12.7" y="-22.86" length="middle" direction="pwr" rot="R90"/>
-<pin name="DET1" x="-20.32" y="-12.7" length="middle" direction="pas"/>
-<pin name="GND@MT3" x="10.16" y="-22.86" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND@MT4" x="7.62" y="-22.86" length="middle" direction="pwr" rot="R90"/>
-<pin name="DET2" x="-20.32" y="-15.24" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MICRO-SD-CARD" prefix="SD" uservalue="yes">
-<description>MICRO-SD</description>
-<gates>
-<gate name="G$1" symbol="MICRO_SD_CARD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="MOLEX-1040310811" package="MOLEX_1040310811_USD">
-<connects>
-<connect gate="G$1" pin="+V3" pad="4"/>
-<connect gate="G$1" pin="CLK" pad="5"/>
-<connect gate="G$1" pin="CMD" pad="3"/>
-<connect gate="G$1" pin="D0" pad="7"/>
-<connect gate="G$1" pin="D1" pad="8"/>
-<connect gate="G$1" pin="D2" pad="1"/>
-<connect gate="G$1" pin="D3" pad="2"/>
-<connect gate="G$1" pin="DET1" pad="DET1"/>
-<connect gate="G$1" pin="DET2" pad="DET2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
-<connect gate="G$1" pin="GND@MT1" pad="MT1"/>
-<connect gate="G$1" pin="GND@MT2" pad="MT2"/>
-<connect gate="G$1" pin="GND@MT3" pad="MT3"/>
-<connect gate="G$1" pin="GND@MT4" pad="MT4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFR" value="Molex" constant="no"/>
-<attribute name="MPN" value="1040310811" constant="no"/>
-<attribute name="VALUE" value="MOLEX_1040310811" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rlc" urn="urn:adsk.eagle:library:4192893">
 <description>Custom RCL Library - Resistors, Capacitors, Inductors</description>
 <packages>
@@ -459,7 +343,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-0.762" y1="-0.381" x2="-0.508" y2="0.381" layer="51"/>
 <rectangle x1="0.508" y1="-0.381" x2="0.762" y2="0.381" layer="51"/>
 </package>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/1" locally_modified="yes" library_version="43" library_locally_modified="yes">
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" library_version="44">
 <description>0603 Resistor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -830,7 +714,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="CAP_CER_THD_2.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/2" type="model" library_version="43" library_locally_modified="yes">
+<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/3" type="model" library_version="44">
 <description>0603 Resistor</description>
 <packageinstances>
 <packageinstance name="0603-RES"/>
@@ -937,7 +821,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/10" locally_modified="yes" prefix="R" uservalue="yes" library_version="43" library_locally_modified="yes">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/11" prefix="R" uservalue="yes" library_version="44">
 <description>Resistor</description>
 <gates>
 <gate name="G$1" symbol="RES-EU" x="0" y="0"/>
@@ -989,7 +873,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1077,7 +961,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/12" locally_modified="yes" prefix="C" uservalue="yes" library_version="43" library_locally_modified="yes">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/13" prefix="C" uservalue="yes" library_version="44">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -1218,12 +1102,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="0" y="1.05"/>
 </polygon>
 </package>
-<package name="CAST01-2.00MM" urn="urn:adsk.eagle:footprint:26716769/1" library_version="34" library_locally_modified="yes">
+<package name="CAST01-2.00MM" urn="urn:adsk.eagle:footprint:26716769/1" locally_modified="yes" library_version="35" library_locally_modified="yes">
 <pad name="1" x="0" y="0" drill="1" diameter="1.7" shape="octagon"/>
 <pad name="P$1" x="-0.7" y="0.5" drill="0.3048"/>
 <pad name="P$2" x="-0.7" y="-0.5" drill="0.3048"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.01" layer="51" style="shortdash"/>
-<text x="-1.27" y="0" size="0.8" layer="25" align="center-right">&gt;NAME</text>
+<text x="-1.27" y="0" size="0.8" layer="25" rot="SR0" align="center-right">&gt;NAME</text>
 <polygon width="0" layer="51">
 <vertex x="0" y="0.5" curve="90"/>
 <vertex x="-0.5" y="0" curve="90"/>
@@ -1241,7 +1125,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="CAST01-2.54MM"/>
 </packageinstances>
 </package3d>
-<package3d name="CAST01-2.00MM" urn="urn:adsk.eagle:package:26716772/2" type="empty" library_version="34" library_locally_modified="yes">
+<package3d name="CAST01-2.00MM" urn="urn:adsk.eagle:package:26716772/2" type="empty" library_version="35" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CAST01-2.00MM"/>
 </packageinstances>
@@ -1264,7 +1148,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAST-01X1" urn="urn:adsk.eagle:component:14150086/6" prefix="CST" library_version="34" library_locally_modified="yes">
+<deviceset name="CAST-01X1" urn="urn:adsk.eagle:component:14150086/6" prefix="CST" library_version="35" library_locally_modified="yes">
 <description>Castelated Edge Hole Pad</description>
 <gates>
 <gate name="G$1" symbol="CAST_01X1" x="0" y="0"/>
@@ -1296,6 +1180,133 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="con-memory-card" urn="urn:adsk.eagle:library:36489038">
+<packages>
+<package name="MOLEX_1040310811_USD" urn="urn:adsk.eagle:footprint:36489039/1" library_version="2">
+<description>Molex microSD 1040310811</description>
+<wire x1="-6" y1="5.7" x2="6" y2="5.7" width="0.127" layer="51"/>
+<wire x1="6" y1="5.7" x2="6" y2="-5.7" width="0.127" layer="51"/>
+<wire x1="6" y1="-5.7" x2="-6" y2="-5.7" width="0.127" layer="51"/>
+<wire x1="-6" y1="-5.7" x2="-6" y2="5.7" width="0.127" layer="51"/>
+<wire x1="-5.5" y1="-5.7" x2="-5.5" y2="-9.7" width="0.127" layer="51"/>
+<wire x1="-5.5" y1="-9.7" x2="5.5" y2="-9.7" width="0.127" layer="51"/>
+<wire x1="5.5" y1="-9.7" x2="5.5" y2="-5.7" width="0.127" layer="51"/>
+<wire x1="-5" y1="5.7" x2="-6" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-6" y1="5.7" x2="-6" y2="-4" width="0.127" layer="21"/>
+<wire x1="3.9" y1="-5.7" x2="4.5" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="6" y1="-4.4" x2="6" y2="0" width="0.127" layer="21"/>
+<wire x1="6" y1="1.4" x2="6" y2="3.7" width="0.127" layer="21"/>
+<wire x1="3.4" y1="5.7" x2="6" y2="5.7" width="0.127" layer="21"/>
+<wire x1="6" y1="5.7" x2="6" y2="5.1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="5.7" x2="1.1" y2="5.7" width="0.127" layer="21"/>
+<text x="0" y="-8.89" size="0.6096" layer="51" align="center">Inserted Card</text>
+<text x="0" y="7.7" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-2.2" size="0.762" layer="27" font="vector" align="center">&gt;VALUE</text>
+<rectangle x1="-0.245" y1="-5.65" x2="0.095" y2="-4.75" layer="51"/>
+<rectangle x1="-1.345" y1="-5.65" x2="-1.005" y2="-4.75" layer="51"/>
+<rectangle x1="-2.445" y1="-5.65" x2="-2.105" y2="-4.75" layer="51"/>
+<rectangle x1="-3.545" y1="-5.65" x2="-3.205" y2="-4.75" layer="51"/>
+<rectangle x1="0.855" y1="-5.65" x2="1.195" y2="-4.75" layer="51"/>
+<rectangle x1="1.955" y1="-5.65" x2="2.295" y2="-4.75" layer="51"/>
+<rectangle x1="3.055" y1="-5.65" x2="3.395" y2="-4.75" layer="51"/>
+<rectangle x1="-4.645" y1="-5.65" x2="-4.305" y2="-4.75" layer="51"/>
+<smd name="4" x="-0.07" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
+<smd name="5" x="-1.17" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
+<smd name="6" x="-2.27" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
+<smd name="7" x="-3.37" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
+<smd name="8" x="-4.42" y="-5.503" dx="1.1" dy="0.75" layer="1" roundness="30" rot="R90"/>
+<smd name="3" x="1.03" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
+<smd name="2" x="2.13" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
+<smd name="1" x="3.23" y="-5.503" dx="1.1" dy="0.85" layer="1" roundness="30" rot="R90"/>
+<smd name="MT2" x="-5.755" y="-5.2" dx="1.8" dy="1.17" layer="1" roundness="30" rot="R90"/>
+<smd name="MT1" x="5.565" y="-5.4" dx="1.35" dy="1.55" layer="1" roundness="30" rot="R90"/>
+<smd name="MT3" x="-3.73" y="5.375" dx="1.9" dy="1.35" layer="1" roundness="30"/>
+<smd name="MT4" x="2.24" y="5.375" dx="1.9" dy="1.35" layer="1" roundness="30"/>
+<smd name="DET1" x="5.74" y="0.7" dx="1.2" dy="1" layer="1" roundness="30"/>
+<smd name="DET2" x="5.74" y="4.4" dx="1.2" dy="1" layer="1" roundness="30"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MOLEX_1040310811_USD" urn="urn:adsk.eagle:package:36489044/2" type="model" library_version="2">
+<description>Molex microSD 1040310811</description>
+<packageinstances>
+<packageinstance name="MOLEX_1040310811_USD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MICRO_SD_CARD" urn="urn:adsk.eagle:symbol:36489041/1" library_version="2">
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-17.78" width="0.6096" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="17.78" y2="-17.78" width="0.6096" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="17.78" y1="-10.16" x2="15.24" y2="-7.62" width="0.6096" layer="94" curve="-90"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="17.78" y2="10.16" width="0.6096" layer="94" curve="-90"/>
+<wire x1="17.78" y1="10.16" x2="17.78" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="17.78" y1="15.24" x2="-15.24" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-10.16" x2="25.4" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="25.4" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94" style="shortdash"/>
+<text x="-12.7" y="16.002" size="2.54" layer="95" ratio="15">&gt;NAME</text>
+<text x="-5.08" y="13.081" size="1.6764" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="0" size="2.54" layer="94" ratio="20">SD Card</text>
+<pin name="D1" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND" x="-20.32" y="7.62" length="middle" direction="pwr"/>
+<pin name="D0" x="-20.32" y="10.16" length="middle"/>
+<pin name="+V3" x="-20.32" y="2.54" length="middle" direction="pwr"/>
+<pin name="CLK" x="-20.32" y="5.08" length="middle" direction="in" function="clk"/>
+<pin name="D3" x="-20.32" y="-2.54" length="middle"/>
+<pin name="D2" x="-20.32" y="-5.08" length="middle"/>
+<pin name="CMD" x="-20.32" y="0" length="middle"/>
+<pin name="GND@MT1" x="15.24" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@MT2" x="12.7" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="DET1" x="-20.32" y="-12.7" length="middle" direction="pas"/>
+<pin name="GND@MT3" x="10.16" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@MT4" x="7.62" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="DET2" x="-20.32" y="-15.24" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICRO-SD-CARD" urn="urn:adsk.eagle:component:36489046/2" prefix="SD" uservalue="yes" library_version="2">
+<description>MICRO-SD</description>
+<gates>
+<gate name="G$1" symbol="MICRO_SD_CARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MOLEX-1040310811" package="MOLEX_1040310811_USD">
+<connects>
+<connect gate="G$1" pin="+V3" pad="4"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="D0" pad="7"/>
+<connect gate="G$1" pin="D1" pad="8"/>
+<connect gate="G$1" pin="D2" pad="1"/>
+<connect gate="G$1" pin="D3" pad="2"/>
+<connect gate="G$1" pin="DET1" pad="DET1"/>
+<connect gate="G$1" pin="DET2" pad="DET2"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="GND@MT1" pad="MT1"/>
+<connect gate="G$1" pin="GND@MT2" pad="MT2"/>
+<connect gate="G$1" pin="GND@MT3" pad="MT3"/>
+<connect gate="G$1" pin="GND@MT4" pad="MT4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36489044/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MFR" value="Molex" constant="no"/>
+<attribute name="MPN" value="1040310811" constant="no"/>
+<attribute name="VALUE" value="MOLEX_1040310811" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1310,15 +1321,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="DOCUMENT_NUMBER" value="0127 SD Card (micro)  Module"/>
 <attribute name="REV" value="A"/>
 </part>
-<part name="SDCARD" library="con-memory-card" deviceset="MICRO-SD-CARD" device="MOLEX-1040310811" value="MOLEX_1040310811"/>
+<part name="SDCARD" library="con-memory-card" library_urn="urn:adsk.eagle:library:36489038" deviceset="MICRO-SD-CARD" device="MOLEX-1040310811" package3d_urn="urn:adsk.eagle:package:36489044/2" value="MOLEX_1040310811"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="1uF"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
-<part name="R6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/2" value="10K"/>
-<part name="R7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/2" value="330"/>
+<part name="R6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="10K"/>
+<part name="R7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="330"/>
 <part name="SDO" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="SCK" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="!SDET" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>

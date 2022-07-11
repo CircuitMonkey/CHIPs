@@ -185,6 +185,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYmRlZGJl" projecturn="a.cGVyc29uYWw6dWUyYmRlZGJlIzIwMTgwNTA0MTMwNTkwMzU2" f3durn="urn:adsk.wipprod:dm.lineage:UDmHYtDTRCKmiScSsI5SlA" pcbguid="d965fd96-e0ae-4394-8a4b-578f8661028a" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="cacecc6c-3c94-4670-ae31-6dded6ffe519" lastsyncedrevisionid="cacecc6c-3c94-4670-ae31-6dded6ffe519" lastboardhashguid="59dba149-5d7f-4e3d-67a3-156b6d895fcd" lastpushedtime="2022-07-11T19:23:23Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="30.48" y2="0" width="0" layer="20"/>
 <wire x1="30.48" y1="0" x2="30.48" y2="15.24" width="0" layer="20"/>
@@ -210,7 +211,7 @@ MAX98365</text>
 <library name="circuit-monkey-chips" urn="urn:adsk.eagle:library:27174476">
 <description>Circuit Monkey - CHIPs Modules</description>
 <packages>
-<package name="0123A" library_version="10" library_locally_modified="yes">
+<package name="0123A" urn="urn:adsk.eagle:footprint:36475267/1" library_version="15">
 <description>0123 Class-D Audio Amp  (16W) using MAX98365</description>
 <wire x1="-6.5" y1="-6.5" x2="-1" y2="-6.5" width="0.01" layer="51"/>
 <wire x1="-1" y1="-6.5" x2="0.5" y2="-5" width="0.01" layer="51"/>
@@ -338,7 +339,6 @@ MAX98365</text>
 <wire x1="2.9" y1="1.1" x2="2.9" y2="3.6" width="0.01" layer="51"/>
 <wire x1="2.9" y1="3.6" x2="3.7" y2="3.6" width="0.01" layer="51"/>
 <wire x1="3.7" y1="3.6" x2="3.7" y2="1.1" width="0.01" layer="51"/>
-<circle x="3.3" y="0" radius="3.1001" width="0.01" layer="51"/>
 <wire x1="-8.5" y1="2.5" x2="-8.3887" y2="2.5125" width="0.01" layer="51"/>
 <wire x1="-8.3887" y1="2.5125" x2="-8.2831" y2="2.5495" width="0.01" layer="51"/>
 <wire x1="-8.2831" y1="2.5495" x2="-8.1883" y2="2.6091" width="0.01" layer="51"/>
@@ -623,16 +623,6 @@ MAX98365</text>
 <wire x1="-2.211" y1="-2.272" x2="-2.211" y2="-3.48" width="0.01" layer="51"/>
 <wire x1="-2.39" y1="-3.356" x2="-2.39" y2="-3.276" width="0.01" layer="51"/>
 <wire x1="-2.35" y1="-3.316" x2="-2.43" y2="-3.316" width="0.01" layer="51"/>
-<smd name="DAI2" x="-8.3" y="-1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="DAI1" x="-8.3" y="1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="DAI0" x="-8.3" y="3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="EN" x="-8.3" y="-3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="VDD" x="-7.35" y="5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R135"/>
-<smd name="GND" x="-7.35" y="-5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R45"/>
-<smd name="GND2" x="-2" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
-<smd name="12V" x="0.5" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
-<smd name="SP+" x="8.3" y="1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="SP-" x="8.3" y="-1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
 <wire x1="-6.7" y1="6.3" x2="-6.5" y2="6.5" width="0.3" layer="21"/>
 <wire x1="-6.5" y1="6.5" x2="-4" y2="6.5" width="0.3" layer="21"/>
 <wire x1="-4" y1="6.5" x2="-3.1" y2="5.6" width="0.3" layer="21"/>
@@ -650,15 +640,34 @@ MAX98365</text>
 <wire x1="-8.5" y1="-4.5" x2="-8.5" y2="-4.1" width="0.3" layer="21"/>
 <wire x1="-8.5" y1="4.1" x2="-8.5" y2="4.5" width="0.3" layer="21"/>
 <wire x1="-8.5" y1="4.5" x2="-8.3" y2="4.7" width="0.3" layer="21"/>
+<circle x="3.3" y="0" radius="3.1001" width="0.01" layer="51"/>
+<smd name="DAI2" x="-8.3" y="-1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="DAI1" x="-8.3" y="1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="DAI0" x="-8.3" y="3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="EN" x="-8.3" y="-3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="VDD" x="-7.35" y="5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R135"/>
+<smd name="GND" x="-7.35" y="-5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R45"/>
+<smd name="GND2" x="-2" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
+<smd name="12V" x="0.5" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
+<smd name="SP+" x="8.3" y="1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="SP-" x="8.3" y="-1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
 <text x="2" y="5.9" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-3.2" y="2.9" size="0.6" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="0123A" urn="urn:adsk.eagle:package:36475271/2" type="model" library_version="15">
+<description>0123 Class-D Audio Amp  (16W) using MAX98365</description>
+<packageinstances>
+<packageinstance name="0123A"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="rlc" urn="urn:adsk.eagle:library:4192893">
 <description>Custom RCL Library - Resistors, Capacitors, Inductors</description>
 <packages>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/1" locally_modified="yes" library_version="43" library_locally_modified="yes">
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" library_version="44">
 <description>0603 Resistor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -679,7 +688,7 @@ MAX98365</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/2" type="model" library_version="43" library_locally_modified="yes">
+<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/3" type="model" library_version="44">
 <description>0603 Resistor</description>
 <packageinstances>
 <packageinstance name="0603-RES"/>
@@ -983,32 +992,32 @@ Please make sure your boards conform to these design rules.
 </pass>
 </autorouter>
 <elements>
-<element name="#0123" library="circuit-monkey-chips" library_urn="urn:adsk.eagle:library:27174476" package="0123A" value="Class-D, 16W" x="17.399" y="6.858" smashed="yes">
+<element name="#0123" library="circuit-monkey-chips" library_urn="urn:adsk.eagle:library:27174476" package="0123A" package3d_urn="urn:adsk.eagle:package:36475271/2" value="Class-D, 16W" x="17.399" y="6.858" smashed="yes">
 <attribute name="NAME" x="12.922" y="6.154" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.199" y="9.758" size="0.6" layer="27" font="vector" align="center"/>
 </element>
-<element name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100" x="5.08" y="10.16" smashed="yes">
+<element name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100" x="5.08" y="10.16" smashed="yes">
 <attribute name="COST01" value="0.10" x="5.08" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="COST10" value="0.05" x="5.08" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="COST100" value="0.02" x="5.08" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.731" y="10.16" size="0.8128" layer="25" font="vector" ratio="15" align="center-left"/>
 <attribute name="VALUE" x="5.08" y="9.906" size="0.2" layer="27" align="center"/>
 </element>
-<element name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100" x="5.08" y="7.62" smashed="yes">
+<element name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100" x="5.08" y="7.62" smashed="yes">
 <attribute name="COST01" value="0.10" x="5.08" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="COST10" value="0.05" x="5.08" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="COST100" value="0.02" x="5.08" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.731" y="7.62" size="0.8128" layer="25" font="vector" ratio="15" align="center-left"/>
 <attribute name="VALUE" x="5.08" y="7.366" size="0.2" layer="27" align="center"/>
 </element>
-<element name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100" x="5.08" y="5.08" smashed="yes">
+<element name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100" x="5.08" y="5.08" smashed="yes">
 <attribute name="COST01" value="0.10" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="COST10" value="0.05" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="COST100" value="0.02" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.731" y="5.08" size="0.8128" layer="25" font="vector" ratio="15" align="center-left"/>
 <attribute name="VALUE" x="5.08" y="4.826" size="0.2" layer="27" align="center"/>
 </element>
-<element name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100" x="5.08" y="12.7" smashed="yes" rot="R180">
+<element name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100" x="5.08" y="12.7" smashed="yes" rot="R180">
 <attribute name="COST01" value="0.10" x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COST10" value="0.05" x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COST100" value="0.02" x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1167,6 +1176,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library

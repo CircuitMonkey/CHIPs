@@ -116,7 +116,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/1" locally_modified="yes" prefix="SHEET" library_version="1" library_locally_modified="yes">
+<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/2" prefix="SHEET" library_version="2">
 <description>Circuit Monkey Letter Frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -135,7 +135,7 @@
 <library name="circuit-monkey-chips" urn="urn:adsk.eagle:library:27174476">
 <description>Circuit Monkey - CHIPs Modules</description>
 <packages>
-<package name="0127A" library_version="10" library_locally_modified="yes">
+<package name="0127A" urn="urn:adsk.eagle:footprint:36475266/1" library_version="14">
 <description>0127 - SD Card - Micro</description>
 <wire x1="-7" y1="-7" x2="-9" y2="-5" width="0.01" layer="51"/>
 <wire x1="-7.0018" y1="-7.0018" x2="-6.9982" y2="-6.9982" width="0.01" layer="51" curve="180"/>
@@ -737,14 +737,6 @@
 <wire x1="-9" y1="-3.05" x2="-9" y2="-2.95" width="0.01" layer="51"/>
 <wire x1="-8.9975" y1="-2.73" x2="-9.0025" y2="-2.73" width="0.01" layer="51" curve="180"/>
 <wire x1="-9.0025" y1="-3.5" x2="-8.9975" y2="-3.5" width="0.01" layer="51" curve="180"/>
-<smd name="!DET" x="-8.8" y="4" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="!CS" x="-8.8" y="2" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="DI" x="-8.8" y="0" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="SCK" x="-8.8" y="-2" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="DO" x="-8.8" y="-4" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="3V" x="-6" y="6.8" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R270"/>
-<smd name="GND1" x="5.2" y="6.8" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R270"/>
-<smd name="GND2" x="5" y="-6.8" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
 <wire x1="-8.9" y1="5.1" x2="-7.1" y2="6.9" width="0.2" layer="21"/>
 <wire x1="-4.9" y1="7" x2="4.1" y2="7" width="0.2" layer="21"/>
 <wire x1="6.2" y1="7" x2="8" y2="7" width="0.2" layer="21"/>
@@ -754,12 +746,28 @@
 <wire x1="8" y1="-7" x2="6.1" y2="-7" width="0.2" layer="21"/>
 <wire x1="3.9" y1="-7" x2="-7" y2="-7" width="0.2" layer="21"/>
 <wire x1="-7" y1="-7" x2="-8.9" y2="-5.1" width="0.2" layer="21"/>
+<smd name="!DET" x="-8.8" y="4" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="!CS" x="-8.8" y="2" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="DI" x="-8.8" y="0" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="SCK" x="-8.8" y="-2" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="DO" x="-8.8" y="-4" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="3V" x="-6" y="6.8" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R270"/>
+<smd name="GND1" x="5.2" y="6.8" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R270"/>
+<smd name="GND2" x="5" y="-6.8" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
 <text x="-0.7" y="7.3" size="1.2" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="1.8" y="3.3" size="0.8" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="0127A" urn="urn:adsk.eagle:package:36475270/2" type="model" library_version="14">
+<description>0127 - SD Card - Micro</description>
+<packageinstances>
+<packageinstance name="0127A"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="0127A" library_version="10" library_locally_modified="yes">
+<symbol name="0127A" urn="urn:adsk.eagle:symbol:36475268/1" library_version="14">
 <description>0127 SD Card Micro</description>
 <pin name="!DET" x="-12.7" y="5.08" length="short"/>
 <pin name="!CS" x="-12.7" y="2.54" length="short"/>
@@ -785,7 +793,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="0127" prefix="M" uservalue="yes" library_version="10" library_locally_modified="yes">
+<deviceset name="0127" urn="urn:adsk.eagle:component:36475272/2" prefix="M" uservalue="yes" library_version="14">
 <description>0127 SD Card Micro</description>
 <gates>
 <gate name="G$1" symbol="0127A" x="2.54" y="0"/>
@@ -801,6 +809,9 @@
 <connect gate="G$1" pin="SDI" pad="DI"/>
 <connect gate="G$1" pin="SDO" pad="DO"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36475270/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -830,7 +841,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="-2.667" size="0.6096" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="GND" x="0" y="0" visible="off" length="point" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+3.3" urn="urn:adsk.eagle:symbol:10486037/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
+<symbol name="+3.3" urn="urn:adsk.eagle:symbol:10486037/2" library_version="2">
 <description>3.3V Bus</description>
 <circle x="0" y="2.54" radius="1.27" width="0.254" layer="94"/>
 <text x="0" y="2.54" size="0.6096" layer="96" align="center">&gt;VALUE</text>
@@ -852,7 +863,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.3V" prefix="SUPPLY" library_version="1" library_locally_modified="yes">
+<deviceset name="3.3V" urn="urn:adsk.eagle:component:36472488/1" prefix="SUPPLY" library_version="2">
 <description>SUPPLY SYMBOL</description>
 <gates>
 <gate name="G$1" symbol="+3.3" x="0" y="0"/>
@@ -1145,7 +1156,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="DOCUMENT_NUMBER" value="0227 - Carrier - SD Card Micro"/>
 <attribute name="REV" value="A"/>
 </part>
-<part name="#0127" library="circuit-monkey-chips" library_urn="urn:adsk.eagle:library:27174476" deviceset="0127" device="REV-A"/>
+<part name="#0127" library="circuit-monkey-chips" library_urn="urn:adsk.eagle:library:27174476" deviceset="0127" device="REV-A" package3d_urn="urn:adsk.eagle:package:36475270/2"/>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="3.3V" device=""/>
 <part name="IO" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_08X1" device="-VT-THD" package3d_urn="urn:adsk.eagle:package:33040361/2" value="Header, 8-pin"/>

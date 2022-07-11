@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -229,7 +229,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/1" locally_modified="yes" prefix="SHEET" library_version="1" library_locally_modified="yes">
+<deviceset name="LETTER_L-CIRCUITMONKEY" urn="urn:adsk.eagle:component:11820670/2" prefix="SHEET" library_version="2">
 <description>Circuit Monkey Letter Frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -248,7 +248,7 @@
 <library name="circuit-monkey-chips" urn="urn:adsk.eagle:library:27174476">
 <description>Circuit Monkey - CHIPs Modules</description>
 <packages>
-<package name="0123A" library_version="10" library_locally_modified="yes">
+<package name="0123A" urn="urn:adsk.eagle:footprint:36475267/1" library_version="15">
 <description>0123 Class-D Audio Amp  (16W) using MAX98365</description>
 <wire x1="-6.5" y1="-6.5" x2="-1" y2="-6.5" width="0.01" layer="51"/>
 <wire x1="-1" y1="-6.5" x2="0.5" y2="-5" width="0.01" layer="51"/>
@@ -376,7 +376,6 @@
 <wire x1="2.9" y1="1.1" x2="2.9" y2="3.6" width="0.01" layer="51"/>
 <wire x1="2.9" y1="3.6" x2="3.7" y2="3.6" width="0.01" layer="51"/>
 <wire x1="3.7" y1="3.6" x2="3.7" y2="1.1" width="0.01" layer="51"/>
-<circle x="3.3" y="0" radius="3.1001" width="0.01" layer="51"/>
 <wire x1="-8.5" y1="2.5" x2="-8.3887" y2="2.5125" width="0.01" layer="51"/>
 <wire x1="-8.3887" y1="2.5125" x2="-8.2831" y2="2.5495" width="0.01" layer="51"/>
 <wire x1="-8.2831" y1="2.5495" x2="-8.1883" y2="2.6091" width="0.01" layer="51"/>
@@ -661,16 +660,6 @@
 <wire x1="-2.211" y1="-2.272" x2="-2.211" y2="-3.48" width="0.01" layer="51"/>
 <wire x1="-2.39" y1="-3.356" x2="-2.39" y2="-3.276" width="0.01" layer="51"/>
 <wire x1="-2.35" y1="-3.316" x2="-2.43" y2="-3.316" width="0.01" layer="51"/>
-<smd name="DAI2" x="-8.3" y="-1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="DAI1" x="-8.3" y="1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="DAI0" x="-8.3" y="3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="EN" x="-8.3" y="-3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="VDD" x="-7.35" y="5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R135"/>
-<smd name="GND" x="-7.35" y="-5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R45"/>
-<smd name="GND2" x="-2" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
-<smd name="12V" x="0.5" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
-<smd name="SP+" x="8.3" y="1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
-<smd name="SP-" x="8.3" y="-1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
 <wire x1="-6.7" y1="6.3" x2="-6.5" y2="6.5" width="0.3" layer="21"/>
 <wire x1="-6.5" y1="6.5" x2="-4" y2="6.5" width="0.3" layer="21"/>
 <wire x1="-4" y1="6.5" x2="-3.1" y2="5.6" width="0.3" layer="21"/>
@@ -688,12 +677,31 @@
 <wire x1="-8.5" y1="-4.5" x2="-8.5" y2="-4.1" width="0.3" layer="21"/>
 <wire x1="-8.5" y1="4.1" x2="-8.5" y2="4.5" width="0.3" layer="21"/>
 <wire x1="-8.5" y1="4.5" x2="-8.3" y2="4.7" width="0.3" layer="21"/>
+<circle x="3.3" y="0" radius="3.1001" width="0.01" layer="51"/>
+<smd name="DAI2" x="-8.3" y="-1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="DAI1" x="-8.3" y="1" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="DAI0" x="-8.3" y="3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="EN" x="-8.3" y="-3" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="VDD" x="-7.35" y="5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R135"/>
+<smd name="GND" x="-7.35" y="-5.35" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R45"/>
+<smd name="GND2" x="-2" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
+<smd name="12V" x="0.5" y="5.3" dx="1.3" dy="1.7" layer="1" roundness="70" rot="R90"/>
+<smd name="SP+" x="8.3" y="1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
+<smd name="SP-" x="8.3" y="-1.5" dx="1.3" dy="1.7" layer="1" roundness="70"/>
 <text x="2" y="5.9" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-3.2" y="2.9" size="0.6" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="0123A" urn="urn:adsk.eagle:package:36475271/2" type="model" library_version="15">
+<description>0123 Class-D Audio Amp  (16W) using MAX98365</description>
+<packageinstances>
+<packageinstance name="0123A"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="0123A" library_version="10" library_locally_modified="yes">
+<symbol name="0123A" urn="urn:adsk.eagle:symbol:36475269/1" library_version="15">
 <description>Class-D Amplifier, 16W</description>
 <pin name="DAI0" x="-12.7" y="5.08" length="short"/>
 <pin name="DAI1" x="-12.7" y="2.54" length="short"/>
@@ -719,7 +727,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="0123" prefix="M" uservalue="yes" library_version="10" library_locally_modified="yes">
+<deviceset name="0123" urn="urn:adsk.eagle:component:36475273/2" prefix="M" uservalue="yes" library_version="15">
 <description>Class-D Amplifier, 16W</description>
 <gates>
 <gate name="G$1" symbol="0123A" x="0" y="0"/>
@@ -737,6 +745,9 @@
 <connect gate="G$1" pin="SP-" pad="SP-"/>
 <connect gate="G$1" pin="VDD" pad="VDD"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36475271/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="Class-D, 16W" constant="no"/>
@@ -897,7 +908,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-1.016" y1="-0.635" x2="-0.6096" y2="0.6223" layer="51"/>
 <rectangle x1="0.6096" y1="-0.6223" x2="1.016" y2="0.6349" layer="51" rot="R180"/>
 </package>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/1" locally_modified="yes" library_version="43" library_locally_modified="yes">
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" library_version="44">
 <description>0603 Resistor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -1082,7 +1093,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="0805-RES"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/2" type="model" library_version="43" library_locally_modified="yes">
+<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/3" type="model" library_version="44">
 <description>0603 Resistor</description>
 <packageinstances>
 <packageinstance name="0603-RES"/>
@@ -1143,7 +1154,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/10" locally_modified="yes" prefix="R" uservalue="yes" library_version="43" library_locally_modified="yes">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/11" prefix="R" uservalue="yes" library_version="44">
 <description>Resistor</description>
 <gates>
 <gate name="G$1" symbol="RES-EU" x="0" y="0"/>
@@ -1195,7 +1206,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1526,7 +1537,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CON_06X1" urn="urn:adsk.eagle:component:5539073/7" locally_modified="yes" prefix="J" uservalue="yes" library_version="34" library_locally_modified="yes">
+<deviceset name="CON_06X1" urn="urn:adsk.eagle:component:5539073/8" prefix="J" uservalue="yes" library_version="35" library_locally_modified="yes">
 <description>Header, 6-pin, single row</description>
 <gates>
 <gate name="1" symbol="CON_06X1" x="0" y="0"/>
@@ -1644,14 +1655,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="DOCUMENT_NUMBER" value="0223 Carrier for #0123 Class-D Amp (16W)"/>
 <attribute name="REV" value="A"/>
 </part>
-<part name="#0123" library="circuit-monkey-chips" library_urn="urn:adsk.eagle:library:27174476" deviceset="0123" device="REV-A" value="Class-D, 16W"/>
+<part name="#0123" library="circuit-monkey-chips" library_urn="urn:adsk.eagle:library:27174476" deviceset="0123" device="REV-A" package3d_urn="urn:adsk.eagle:package:36475271/2" value="Class-D, 16W"/>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VDD" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+12V" device=""/>
-<part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100"/>
-<part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100"/>
-<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100"/>
-<part name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/2" value="100"/>
+<part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100"/>
+<part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100"/>
+<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100"/>
+<part name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="100"/>
 <part name="IO" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_06X1" device="-VT" package3d_urn="urn:adsk.eagle:package:5535172/6"/>
 <part name="SPK" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_02X1" device="-2.54MM-THD-VT" package3d_urn="urn:adsk.eagle:package:26648768/3"/>
 <part name="12V" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_02X1" device="-2.54MM-THD-VT" package3d_urn="urn:adsk.eagle:package:26648768/3"/>
