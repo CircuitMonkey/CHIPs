@@ -306,15 +306,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <pad name="1" x="0" y="0" drill="1" diameter="1.7" shape="octagon"/>
 <pad name="P$1" x="-0.7" y="0.5" drill="0.3048"/>
 <pad name="P$2" x="-0.7" y="-0.5" drill="0.3048"/>
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.01" layer="51" style="shortdash"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.01" layer="51" style="shortdash"/>
 <text x="-1.27" y="0" size="0.8" layer="25" rot="SR0" align="center-right">&gt;NAME</text>
-<polygon width="0" layer="51">
+<polygon width="0.01" layer="51">
 <vertex x="0" y="0.5" curve="90"/>
 <vertex x="-0.5" y="0" curve="90"/>
 <vertex x="0" y="-0.5"/>
-<vertex x="0" y="-0.95" curve="-90"/>
-<vertex x="-0.95" y="0" curve="-90"/>
-<vertex x="0" y="0.95"/>
+<vertex x="0" y="-0.8636" curve="-90"/>
+<vertex x="-0.8636" y="0" curve="-90"/>
+<vertex x="0" y="0.8636"/>
 </polygon>
 </package>
 </packages>
@@ -452,7 +452,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-1.016" y1="-0.635" x2="-0.6096" y2="0.6223" layer="51"/>
 <rectangle x1="0.6096" y1="-0.6223" x2="1.016" y2="0.6349" layer="51" rot="R180"/>
 </package>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" library_version="44" library_locally_modified="yes">
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" locally_modified="yes" library_version="44" library_locally_modified="yes">
 <description>0603 Resistor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -468,8 +468,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <text x="1.524" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
 <text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
-<rectangle x1="-0.762" y1="-0.381" x2="-0.508" y2="0.381" layer="51"/>
-<rectangle x1="0.508" y1="-0.381" x2="0.762" y2="0.381" layer="51"/>
+<polygon width="0.01" layer="51" spacing="0.01">
+<vertex x="-0.76" y="0.38"/>
+<vertex x="-0.51" y="0.38"/>
+<vertex x="-0.51" y="-0.38"/>
+<vertex x="-0.76" y="-0.38"/>
+</polygon>
+<polygon width="0.01" layer="51" spacing="0.01">
+<vertex x="0.51" y="0.38"/>
+<vertex x="0.76" y="0.38"/>
+<vertex x="0.76" y="-0.38"/>
+<vertex x="0.51" y="-0.38"/>
+</polygon>
 </package>
 <package name="R_THD_610/236" urn="urn:adsk.eagle:footprint:4192930/1" library_version="30">
 <description>Resistor, THD, 2 Watt</description>
@@ -717,7 +727,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="0.7" size="0.6096" layer="25" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.3048" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/1" library_version="30">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/1" locally_modified="yes" library_version="44" library_locally_modified="yes">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -733,8 +743,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
 <text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
-<rectangle x1="-0.762" y1="-0.381" x2="-0.508" y2="0.381" layer="51"/>
-<rectangle x1="0.508" y1="-0.381" x2="0.762" y2="0.381" layer="51"/>
+<polygon width="0.01" layer="51" spacing="0.01">
+<vertex x="-0.76" y="0.38"/>
+<vertex x="-0.51" y="0.38"/>
+<vertex x="-0.51" y="-0.38"/>
+<vertex x="-0.76" y="-0.38"/>
+</polygon>
+<polygon width="0.01" layer="51" spacing="0.01">
+<vertex x="0.51" y="0.38"/>
+<vertex x="0.76" y="0.38"/>
+<vertex x="0.76" y="-0.38"/>
+<vertex x="0.51" y="-0.38"/>
+</polygon>
 </package>
 <package name="IND-SMD-10X10MM" urn="urn:adsk.eagle:footprint:4192904/1" library_version="30">
 <wire x1="-5" y1="2.5" x2="-5" y2="5" width="0.254" layer="21"/>
@@ -831,7 +851,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-4.4" y="0.1" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="7" align="center">&gt;VALUE</text>
 </package>
-<package name="IND-SRN5040" urn="urn:adsk.eagle:footprint:26838112/2" library_version="32">
+<package name="IND-SRN5040" urn="urn:adsk.eagle:footprint:26838112/2" locally_modified="yes" library_version="44" library_locally_modified="yes">
 <description>Inductor, SMD, 5mm x 4mm, Bourns SRN5040 series</description>
 <wire x1="-2.5" y1="2" x2="-2" y2="2" width="0.05" layer="51"/>
 <wire x1="-2" y1="2" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
@@ -853,12 +873,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.8" y1="-2.2" x2="1.5" y2="-2.5" width="0.2" layer="21"/>
 <wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="-2.5" x2="-1.8" y2="-2.2" width="0.2" layer="21"/>
-<rectangle x1="-2.5" y1="-2" x2="-1" y2="2" layer="51"/>
-<rectangle x1="1" y1="-2" x2="2.5" y2="2" layer="51"/>
 <smd name="1" x="-2" y="0" dx="4" dy="1.9" layer="1" roundness="30" rot="R90"/>
 <smd name="2" x="2" y="0" dx="4" dy="1.9" layer="1" roundness="30" rot="R90"/>
 <text x="0" y="3.2" size="0.8" layer="25" ratio="15" align="center">&gt;NAME</text>
 <text x="-0.4" y="0" size="0.4064" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<polygon width="0.05" layer="51">
+<vertex x="-2.5" y="2"/>
+<vertex x="-1" y="2"/>
+<vertex x="-1" y="-2"/>
+<vertex x="-2.5" y="-2"/>
+</polygon>
+<polygon width="0.05" layer="51">
+<vertex x="1" y="2"/>
+<vertex x="2.5" y="2"/>
+<vertex x="2.5" y="-2"/>
+<vertex x="1" y="-2"/>
+</polygon>
 </package>
 <package name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:footprint:4192936/2" library_version="44" library_locally_modified="yes">
 <description>Capacitor, Caramic, THD</description>
@@ -956,7 +986,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="0402-CAP"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/2" type="model" library_version="30">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/2" type="model" library_version="44" library_locally_modified="yes">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -990,7 +1020,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="IND-SMD-07X07MM"/>
 </packageinstances>
 </package3d>
-<package3d name="IND-SRN5040" urn="urn:adsk.eagle:package:26838113/3" type="model" library_version="32">
+<package3d name="IND-SRN5040" urn="urn:adsk.eagle:package:26838113/3" type="model" library_version="44" library_locally_modified="yes">
 <description>Inductor, SMD, 5mm x 4mm, Bourns SRN5040 series</description>
 <packageinstances>
 <packageinstance name="IND-SRN5040"/>
@@ -1461,7 +1491,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.2" y1="0.85" x2="1.55" y2="0.85" width="0.01" layer="51"/>
 <wire x1="1.55" y1="0.85" x2="1.55" y2="-0.85" width="0.01" layer="51"/>
 <wire x1="-1.55" y1="-0.85" x2="-1.55" y2="0.85" width="0.01" layer="51"/>
-<rectangle x1="-0.25" y1="1" x2="0.25" y2="1.5" layer="51"/>
 <wire x1="-0.25" y1="0.85" x2="-0.25" y2="1.5" width="0.01" layer="51"/>
 <wire x1="-0.25" y1="1.5" x2="0.25" y2="1.5" width="0.01" layer="51"/>
 <wire x1="0.25" y1="1.5" x2="0.25" y2="0.85" width="0.01" layer="51"/>
@@ -1471,8 +1500,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.7" y1="0.85" x2="0.7" y2="1.5" width="0.01" layer="51"/>
 <wire x1="0.7" y1="1.5" x2="1.2" y2="1.5" width="0.01" layer="51"/>
 <wire x1="-1.2" y1="1.5" x2="-0.7" y2="1.5" width="0.01" layer="51"/>
-<rectangle x1="-1.2" y1="1" x2="-0.7" y2="1.5" layer="51"/>
-<rectangle x1="0.7" y1="1" x2="1.2" y2="1.5" layer="51"/>
 <wire x1="1.55" y1="-0.85" x2="1.2" y2="-0.85" width="0.01" layer="51"/>
 <wire x1="1.2" y1="-0.85" x2="0.7" y2="-0.85" width="0.01" layer="51"/>
 <wire x1="0.7" y1="-0.85" x2="0.25" y2="-0.85" width="0.01" layer="51"/>
@@ -1480,7 +1507,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.25" y1="-0.85" x2="-0.7" y2="-0.85" width="0.01" layer="51"/>
 <wire x1="-0.7" y1="-0.85" x2="-1.2" y2="-0.85" width="0.01" layer="51"/>
 <wire x1="-1.2" y1="-0.85" x2="-1.55" y2="-0.85" width="0.01" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-1" layer="51" rot="R180"/>
 <wire x1="0.25" y1="-0.85" x2="0.25" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="0.25" y1="-1.5" x2="-0.25" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="-0.25" y1="-1.5" x2="-0.25" y2="-0.85" width="0.01" layer="51"/>
@@ -1490,8 +1516,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.7" y1="-0.85" x2="-0.7" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="-0.7" y1="-1.5" x2="-1.2" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="1.2" y1="-1.5" x2="0.7" y2="-1.5" width="0.01" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-1" layer="51" rot="R180"/>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-1" layer="51" rot="R180"/>
 <circle x="-1.1" y="-0.4" radius="0.1" width="0.2" layer="51"/>
 <smd name="2" x="0" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
 <smd name="1" x="-0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
@@ -1508,6 +1532,42 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="0.5" size="0.4" layer="27" align="center">&gt;VALUE</text>
 <text x="-2.4" y="0" size="0.9" layer="25" ratio="15" rot="R90" align="center">&gt;NAME</text>
 <circle x="-1.7" y="-1.5" radius="0.15" width="0.3" layer="21"/>
+<polygon width="0.01" layer="51">
+<vertex x="-0.7" y="-1"/>
+<vertex x="-1.2" y="-1"/>
+<vertex x="-1.2" y="-1.5"/>
+<vertex x="-0.7" y="-1.5"/>
+</polygon>
+<polygon width="0.01" layer="51">
+<vertex x="1.2" y="-1"/>
+<vertex x="0.7" y="-1"/>
+<vertex x="0.7" y="-1.5"/>
+<vertex x="1.2" y="-1.5"/>
+</polygon>
+<polygon width="0.01" layer="51">
+<vertex x="0.25" y="-1"/>
+<vertex x="-0.25" y="-1"/>
+<vertex x="-0.25" y="-1.5"/>
+<vertex x="0.25" y="-1.5"/>
+</polygon>
+<polygon width="0.01" layer="51">
+<vertex x="-0.7" y="1.5"/>
+<vertex x="-1.2" y="1.5"/>
+<vertex x="-1.2" y="1"/>
+<vertex x="-0.7" y="1"/>
+</polygon>
+<polygon width="0.01" layer="51">
+<vertex x="0.25" y="1.5"/>
+<vertex x="-0.25" y="1.5"/>
+<vertex x="-0.25" y="1"/>
+<vertex x="0.25" y="1"/>
+</polygon>
+<polygon width="0.01" layer="51">
+<vertex x="1.2" y="1.5"/>
+<vertex x="0.7" y="1.5"/>
+<vertex x="0.7" y="1"/>
+<vertex x="1.2" y="1"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
