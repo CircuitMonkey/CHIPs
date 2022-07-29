@@ -2197,7 +2197,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="0.5ohm"/>
 <part name="D2" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
 <part name="D3" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
-<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="10.0uF"/>
+<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="10uF/16V"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="2.2uF"/>
 <part name="D4" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
