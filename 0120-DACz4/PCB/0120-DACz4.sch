@@ -317,7 +317,7 @@
 <rectangle x1="-1.016" y1="-0.635" x2="-0.6096" y2="0.6223" layer="51"/>
 <rectangle x1="0.6096" y1="-0.6223" x2="1.016" y2="0.6349" layer="51" rot="R180"/>
 </package>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/3" library_version="45">
 <description>0603 Resistor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -592,7 +592,7 @@
 <text x="0" y="0.7" size="0.6096" layer="25" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.3048" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/1" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/2" library_version="45">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -645,7 +645,7 @@
 <packageinstance name="0805-RES"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/3" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/4" type="model" library_version="45">
 <description>0603 Resistor</description>
 <packageinstances>
 <packageinstance name="0603-RES"/>
@@ -717,7 +717,7 @@
 <packageinstance name="0402-CAP"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/2" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/3" type="model" library_version="45">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -765,7 +765,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/11" prefix="R" uservalue="yes" library_version="44" library_locally_modified="yes">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/12" prefix="R" uservalue="yes" library_version="45">
 <description>Resistor</description>
 <gates>
 <gate name="G$1" symbol="RES-EU" x="0" y="0"/>
@@ -817,7 +817,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -905,7 +905,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/13" prefix="C" uservalue="yes" library_version="44" library_locally_modified="yes">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/14" prefix="C" uservalue="yes" library_version="45">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -1013,7 +1013,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1285,7 +1285,7 @@ DAC</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP4728" urn="urn:adsk.eagle:component:26491327/2" prefix="DAC" library_version="6">
+<deviceset name="MCP4728" urn="urn:adsk.eagle:component:26491327/2" locally_modified="yes" prefix="DAC" library_version="8" library_locally_modified="yes">
 <description>Quad DAC with I2C</description>
 <gates>
 <gate name="G$1" symbol="MCP4728" x="0" y="2.54"/>
@@ -1309,6 +1309,9 @@ DAC</text>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="COST01" value="2.55" constant="no"/>
+<attribute name="COST10" value="2.25" constant="no"/>
+<attribute name="COST100" value="1.95" constant="no"/>
 <attribute name="MFR" value="Microchip" constant="no"/>
 <attribute name="MPN" value="MCP4728" constant="no"/>
 <attribute name="VALUE" value="MCP4728" constant="no"/>
@@ -1333,11 +1336,11 @@ DAC</text>
 <attribute name="DOCUMENT_NUMBER" value="0116"/>
 <attribute name="REV" value="A"/>
 </part>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/3" value="0.1uF"/>
 <part name="VCC" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
-<part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="4.7K"/>
+<part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/4" value="4.7K"/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="C" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="D" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
@@ -1352,10 +1355,10 @@ DAC</text>
 <part name="RDY/!BSY" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="SCL" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="SDA" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
-<part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="4.7K"/>
+<part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/4" value="4.7K"/>
 <part name="SUPPLY8" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="!LDAC" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
-<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="4.7K"/>
+<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/4" value="4.7K"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 </parts>
 <sheets>
