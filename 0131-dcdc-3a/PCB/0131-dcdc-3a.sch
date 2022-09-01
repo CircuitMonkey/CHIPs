@@ -303,19 +303,25 @@ In this library the device names are the same as the pin names of the symbols, t
 </polygon>
 </package>
 <package name="CAST01-2.00MM" urn="urn:adsk.eagle:footprint:26716769/1" locally_modified="yes" library_version="35" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="1" diameter="1.7" shape="octagon"/>
-<pad name="P$1" x="-0.7" y="0.5" drill="0.3048"/>
-<pad name="P$2" x="-0.7" y="-0.5" drill="0.3048"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.6" shape="octagon"/>
+<pad name="P$1" x="-0.7" y="0.4" drill="0.3048" diameter="0.8128" stop="no"/>
+<pad name="P$2" x="-0.7" y="-0.4" drill="0.3048" diameter="0.8128" stop="no"/>
 <wire x1="0" y1="1" x2="0" y2="-1" width="0.01" layer="51" style="shortdash"/>
 <text x="-1.27" y="0" size="0.8" layer="25" rot="SR0" align="center-right">&gt;NAME</text>
 <polygon width="0.01" layer="51">
 <vertex x="0" y="0.5" curve="90"/>
 <vertex x="-0.5" y="0" curve="90"/>
 <vertex x="0" y="-0.5"/>
-<vertex x="0" y="-0.8636" curve="-90"/>
-<vertex x="-0.8636" y="0" curve="-90"/>
-<vertex x="0" y="0.8636"/>
+<vertex x="0" y="-0.7874" curve="-90"/>
+<vertex x="-0.7874" y="0" curve="-90"/>
+<vertex x="0" y="0.7874"/>
 </polygon>
+<rectangle x1="-1.1" y1="-0.4" x2="-0.7" y2="0.4" layer="1"/>
+<rectangle x1="-0.7" y1="0.6" x2="-0.3" y2="0.8" layer="1"/>
+<rectangle x1="-0.7" y1="-0.8" x2="-0.3" y2="-0.6" layer="1"/>
+<rectangle x1="-0.7" y1="0.6" x2="-0.3" y2="0.8" layer="16" rot="R180"/>
+<rectangle x1="-1.1" y1="-0.4" x2="-0.7" y2="0.4" layer="16" rot="R180"/>
+<rectangle x1="-0.7" y1="-0.8" x2="-0.3" y2="-0.6" layer="16" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -452,7 +458,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-1.016" y1="-0.635" x2="-0.6096" y2="0.6223" layer="51"/>
 <rectangle x1="0.6096" y1="-0.6223" x2="1.016" y2="0.6349" layer="51" rot="R180"/>
 </package>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/3" library_version="45" library_locally_modified="yes">
 <description>0603 Resistor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -727,7 +733,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="0.7" size="0.6096" layer="25" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.3048" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/1" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/2" library_version="45" library_locally_modified="yes">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -851,7 +857,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-4.4" y="0.1" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="7" align="center">&gt;VALUE</text>
 </package>
-<package name="IND-SRN5040" urn="urn:adsk.eagle:footprint:26838112/2" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="IND-SRN5040" urn="urn:adsk.eagle:footprint:26838112/3" library_version="45" library_locally_modified="yes">
 <description>Inductor, SMD, 5mm x 4mm, Bourns SRN5040 series</description>
 <wire x1="-2.5" y1="2" x2="-2" y2="2" width="0.05" layer="51"/>
 <wire x1="-2" y1="2" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
@@ -914,7 +920,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="0805-RES"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/3" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/4" type="model" library_version="45" library_locally_modified="yes">
 <description>0603 Resistor</description>
 <packageinstances>
 <packageinstance name="0603-RES"/>
@@ -986,7 +992,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="0402-CAP"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/2" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/3" type="model" library_version="45" library_locally_modified="yes">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -1020,7 +1026,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="IND-SMD-07X07MM"/>
 </packageinstances>
 </package3d>
-<package3d name="IND-SRN5040" urn="urn:adsk.eagle:package:26838113/3" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="IND-SRN5040" urn="urn:adsk.eagle:package:26838113/4" type="model" library_version="45" library_locally_modified="yes">
 <description>Inductor, SMD, 5mm x 4mm, Bourns SRN5040 series</description>
 <packageinstances>
 <packageinstance name="IND-SRN5040"/>
@@ -1080,7 +1086,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/11" prefix="R" uservalue="yes" library_version="44" library_locally_modified="yes">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:4192998/12" prefix="R" uservalue="yes" library_version="45" library_locally_modified="yes">
 <description>Resistor</description>
 <gates>
 <gate name="G$1" symbol="RES-EU" x="0" y="0"/>
@@ -1132,7 +1138,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193040/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1220,7 +1226,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/13" prefix="C" uservalue="yes" library_version="44" library_locally_modified="yes">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/14" prefix="C" uservalue="yes" library_version="45" library_locally_modified="yes">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -1328,7 +1334,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1340,7 +1346,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR" urn="urn:adsk.eagle:component:4192996/6" prefix="L" uservalue="yes" library_version="44" library_locally_modified="yes">
+<deviceset name="INDUCTOR" urn="urn:adsk.eagle:component:4192996/7" prefix="L" uservalue="yes" library_version="45" library_locally_modified="yes">
 <description>Inductor</description>
 <gates>
 <gate name="G$1" symbol="IND" x="0" y="0"/>
@@ -1440,10 +1446,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26838113/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26838113/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="COST01" value="0.55" constant="no"/>
+<attribute name="COST10" value="0.40" constant="no"/>
+<attribute name="COST100" value="0.35" constant="no"/>
 <attribute name="MFR" value="Bourns" constant="no"/>
 <attribute name="MPN" value="SRN5040" constant="no"/>
 </technology>
@@ -1480,7 +1489,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-1.3" y="0" size="0.5" layer="25" ratio="15" rot="R90" align="center">&gt;NAME</text>
 <text x="0" y="-0.15" size="0.2" layer="27" rot="R180" align="center">&gt;VALUE</text>
 </package>
-<package name="TSOT26" library_version="12" library_locally_modified="yes">
+<package name="TSOT26" urn="urn:adsk.eagle:footprint:36803975/1" library_version="14">
 <description>TSOT26 ( SOT23-6 ?)</description>
 <wire x1="-1.55" y1="0.85" x2="-1.2" y2="0.85" width="0.01" layer="51"/>
 <wire x1="-1.2" y1="0.85" x2="-0.7" y2="0.85" width="0.01" layer="51"/>
@@ -1516,22 +1525,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.7" y1="-0.85" x2="-0.7" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="-0.7" y1="-1.5" x2="-1.2" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="1.2" y1="-1.5" x2="0.7" y2="-1.5" width="0.01" layer="51"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.2" layer="51"/>
-<smd name="2" x="0" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
-<smd name="1" x="-0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
-<smd name="3" x="0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
-<smd name="4" x="0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="5" x="0" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="6" x="-0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
 <wire x1="-1.4" y1="0.9" x2="-1.6" y2="0.9" width="0.2" layer="21"/>
 <wire x1="-1.6" y1="0.9" x2="-1.6" y2="-0.9" width="0.2" layer="21"/>
 <wire x1="-1.6" y1="-0.9" x2="-1.4" y2="-0.9" width="0.2" layer="21"/>
 <wire x1="1.4" y1="0.9" x2="1.6" y2="0.9" width="0.2" layer="21"/>
 <wire x1="1.6" y1="0.9" x2="1.6" y2="-0.9" width="0.2" layer="21"/>
 <wire x1="1.6" y1="-0.9" x2="1.4" y2="-0.9" width="0.2" layer="21"/>
+<circle x="-1.1" y="-0.4" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.7" y="-1.5" radius="0.15" width="0.3" layer="21"/>
+<smd name="2" x="0" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
+<smd name="1" x="-0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
+<smd name="3" x="0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
+<smd name="4" x="0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="5" x="0" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="6" x="-0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
 <text x="0" y="0.5" size="0.4" layer="27" align="center">&gt;VALUE</text>
 <text x="-2.4" y="0" size="0.9" layer="25" ratio="15" rot="R90" align="center">&gt;NAME</text>
-<circle x="-1.7" y="-1.5" radius="0.15" width="0.3" layer="21"/>
 <polygon width="0.01" layer="51">
 <vertex x="-0.7" y="-1"/>
 <vertex x="-1.2" y="-1"/>
@@ -1577,6 +1586,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="SOT-563-6"/>
 </packageinstances>
 </package3d>
+<package3d name="TSOT26" urn="urn:adsk.eagle:package:36803976/2" type="model" library_version="14">
+<description>TSOT26 ( SOT23-6 ?)</description>
+<packageinstances>
+<packageinstance name="TSOT26"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="BUCK" urn="urn:adsk.eagle:symbol:26837957/2" library_version="8">
@@ -1596,7 +1611,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BUCK" urn="urn:adsk.eagle:component:26837959/3" locally_modified="yes" prefix="VR" uservalue="yes" library_version="12" library_locally_modified="yes">
+<deviceset name="BUCK" urn="urn:adsk.eagle:component:26837959/5" prefix="VR" uservalue="yes" library_version="14">
 <description>Buck Regulator</description>
 <gates>
 <gate name="G$1" symbol="BUCK" x="0" y="-5.08"/>
@@ -1632,6 +1647,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="SW" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36803976/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="COST01" value="0.50" constant="no"/>
@@ -1666,20 +1684,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="E" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="G" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2"/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="R9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="52.3K"/>
-<part name="R10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/3" value="10K"/>
-<part name="VR" library="regulators" library_urn="urn:adsk.eagle:library:7189770" deviceset="BUCK" device="AP62300-WU" value="AP6230"/>
+<part name="R9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/4" value="52.3K"/>
+<part name="R10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/4" value="10K"/>
+<part name="VR" library="regulators" library_urn="urn:adsk.eagle:library:7189770" deviceset="BUCK" device="AP62300-WU" package3d_urn="urn:adsk.eagle:package:36803976/2" value="AP6230"/>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="10uF"/>
-<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="22uF"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/3" value="10uF"/>
+<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/3" value="22uF"/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/3" value="0.1uF"/>
 <part name="SUPPLY4" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="L1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="INDUCTOR" device="SMD-05X04MM" package3d_urn="urn:adsk.eagle:package:26838113/3" value="4.7uH">
+<part name="L1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="INDUCTOR" device="SMD-05X04MM" package3d_urn="urn:adsk.eagle:package:26838113/4" value="4.7uH">
 <attribute name="MPN" value="SRN5040-3R3M"/>
 </part>
 <part name="SUPPLY5" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="22uF"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/3" value="22uF"/>
 <part name="SUPPLY6" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 </parts>
 <sheets>

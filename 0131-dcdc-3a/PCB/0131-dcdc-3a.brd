@@ -185,7 +185,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYmRlZGJl" projecturn="a.cGVyc29uYWw6dWUyYmRlZGJlIzIwMTgwNTA0MTMwNTkwMzU2" f3durn="urn:adsk.wipprod:dm.lineage:eZOkGLe1QNuXnXdly1mLig" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="561a16f9-f9c2-47d6-b74b-1080b537acbf" lastsyncedrevisionid="561a16f9-f9c2-47d6-b74b-1080b537acbf" lastboardhashguid="4acf8807-1ce2-a4f7-aa6b-abfe03a9e5d8" lastpushedtime="2021-02-28T03:17:57Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYmRlZGJl" projecturn="a.cGVyc29uYWw6dWUyYmRlZGJlIzIwMTgwNTA0MTMwNTkwMzU2" f3durn="urn:adsk.wipprod:dm.lineage:HhUD66ZjTt6MWf_yuwFK-A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="991bb839-7ebe-4599-a0e8-20d85c1d436b" lastsyncedrevisionid="991bb839-7ebe-4599-a0e8-20d85c1d436b" lastboardhashguid="6be4951c-e1ea-a95a-5d87-7367a80daec2" lastpushedtime="2022-08-08T20:08:23Z" linktopcb3d="true"/>
 <plain>
 <wire x1="1.5" y1="0" x2="11" y2="0" width="0" layer="20"/>
 <wire x1="11" y1="0" x2="11.5" y2="0.5" width="0" layer="20"/>
@@ -212,19 +212,25 @@
 <description>Pin Headers,  0.1", 0.05", and metric</description>
 <packages>
 <package name="CAST01-2.00MM" urn="urn:adsk.eagle:footprint:26716769/1" locally_modified="yes" library_version="35" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="1" diameter="1.7" shape="octagon"/>
-<pad name="P$1" x="-0.7" y="0.5" drill="0.3048"/>
-<pad name="P$2" x="-0.7" y="-0.5" drill="0.3048"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.6" shape="octagon"/>
+<pad name="P$1" x="-0.7" y="0.4" drill="0.3048" diameter="0.8128" stop="no"/>
+<pad name="P$2" x="-0.7" y="-0.4" drill="0.3048" diameter="0.8128" stop="no"/>
 <wire x1="0" y1="1" x2="0" y2="-1" width="0.01" layer="51" style="shortdash"/>
 <text x="-1.27" y="0" size="0.8" layer="25" rot="SR0" align="center-right">&gt;NAME</text>
 <polygon width="0.01" layer="51">
 <vertex x="0" y="0.5" curve="90"/>
 <vertex x="-0.5" y="0" curve="90"/>
 <vertex x="0" y="-0.5"/>
-<vertex x="0" y="-0.8636" curve="-90"/>
-<vertex x="-0.8636" y="0" curve="-90"/>
-<vertex x="0" y="0.8636"/>
+<vertex x="0" y="-0.7874" curve="-90"/>
+<vertex x="-0.7874" y="0" curve="-90"/>
+<vertex x="0" y="0.7874"/>
 </polygon>
+<rectangle x1="-1.1" y1="-0.4" x2="-0.7" y2="0.4" layer="1"/>
+<rectangle x1="-0.7" y1="0.6" x2="-0.3" y2="0.8" layer="1"/>
+<rectangle x1="-0.7" y1="-0.8" x2="-0.3" y2="-0.6" layer="1"/>
+<rectangle x1="-0.7" y1="0.6" x2="-0.3" y2="0.8" layer="16" rot="R180"/>
+<rectangle x1="-1.1" y1="-0.4" x2="-0.7" y2="0.4" layer="16" rot="R180"/>
+<rectangle x1="-0.7" y1="-0.8" x2="-0.3" y2="-0.6" layer="16" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -238,7 +244,7 @@
 <library name="rlc" urn="urn:adsk.eagle:library:4192893">
 <description>Custom RCL Library - Resistors, Capacitors, Inductors</description>
 <packages>
-<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/2" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="0603-RES" urn="urn:adsk.eagle:footprint:4193032/3" library_version="45" library_locally_modified="yes">
 <description>0603 Resistor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -267,7 +273,7 @@
 <vertex x="0.51" y="-0.38"/>
 </polygon>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/1" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/2" library_version="45" library_locally_modified="yes">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -296,7 +302,7 @@
 <vertex x="0.51" y="-0.38"/>
 </polygon>
 </package>
-<package name="IND-SRN5040" urn="urn:adsk.eagle:footprint:26838112/2" locally_modified="yes" library_version="44" library_locally_modified="yes">
+<package name="IND-SRN5040" urn="urn:adsk.eagle:footprint:26838112/3" library_version="45" library_locally_modified="yes">
 <description>Inductor, SMD, 5mm x 4mm, Bourns SRN5040 series</description>
 <wire x1="-2.5" y1="2" x2="-2" y2="2" width="0.05" layer="51"/>
 <wire x1="-2" y1="2" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
@@ -337,19 +343,19 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/3" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="0603-RES" urn="urn:adsk.eagle:package:4193040/4" type="model" library_version="45" library_locally_modified="yes">
 <description>0603 Resistor</description>
 <packageinstances>
 <packageinstance name="0603-RES"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/2" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/3" type="model" library_version="45" library_locally_modified="yes">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
 </packageinstances>
 </package3d>
-<package3d name="IND-SRN5040" urn="urn:adsk.eagle:package:26838113/3" type="model" library_version="44" library_locally_modified="yes">
+<package3d name="IND-SRN5040" urn="urn:adsk.eagle:package:26838113/4" type="model" library_version="45" library_locally_modified="yes">
 <description>Inductor, SMD, 5mm x 4mm, Bourns SRN5040 series</description>
 <packageinstances>
 <packageinstance name="IND-SRN5040"/>
@@ -360,7 +366,7 @@
 <library name="regulators" urn="urn:adsk.eagle:library:7189770">
 <description>Regulators and DC-DC converters</description>
 <packages>
-<package name="TSOT26" library_version="12" library_locally_modified="yes">
+<package name="TSOT26" urn="urn:adsk.eagle:footprint:36803975/1" library_version="14">
 <description>TSOT26 ( SOT23-6 ?)</description>
 <wire x1="-1.55" y1="0.85" x2="-1.2" y2="0.85" width="0.01" layer="51"/>
 <wire x1="-1.2" y1="0.85" x2="-0.7" y2="0.85" width="0.01" layer="51"/>
@@ -396,22 +402,22 @@
 <wire x1="-0.7" y1="-0.85" x2="-0.7" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="-0.7" y1="-1.5" x2="-1.2" y2="-1.5" width="0.01" layer="51"/>
 <wire x1="1.2" y1="-1.5" x2="0.7" y2="-1.5" width="0.01" layer="51"/>
-<circle x="-1.1" y="-0.4" radius="0.1" width="0.2" layer="51"/>
-<smd name="2" x="0" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
-<smd name="1" x="-0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
-<smd name="3" x="0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
-<smd name="4" x="0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="5" x="0" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
-<smd name="6" x="-0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
 <wire x1="-1.4" y1="0.9" x2="-1.6" y2="0.9" width="0.2" layer="21"/>
 <wire x1="-1.6" y1="0.9" x2="-1.6" y2="-0.9" width="0.2" layer="21"/>
 <wire x1="-1.6" y1="-0.9" x2="-1.4" y2="-0.9" width="0.2" layer="21"/>
 <wire x1="1.4" y1="0.9" x2="1.6" y2="0.9" width="0.2" layer="21"/>
 <wire x1="1.6" y1="0.9" x2="1.6" y2="-0.9" width="0.2" layer="21"/>
 <wire x1="1.6" y1="-0.9" x2="1.4" y2="-0.9" width="0.2" layer="21"/>
+<circle x="-1.1" y="-0.4" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.7" y="-1.5" radius="0.15" width="0.3" layer="21"/>
+<smd name="2" x="0" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
+<smd name="1" x="-0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
+<smd name="3" x="0.95" y="-1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R270"/>
+<smd name="4" x="0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="5" x="0" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
+<smd name="6" x="-0.95" y="1.4" dx="1" dy="0.6" layer="1" roundness="50" rot="R90"/>
 <text x="0" y="0.5" size="0.4" layer="27" align="center">&gt;VALUE</text>
 <text x="-2.4" y="0" size="0.9" layer="25" ratio="15" rot="R90" align="center">&gt;NAME</text>
-<circle x="-1.7" y="-1.5" radius="0.15" width="0.3" layer="21"/>
 <polygon width="0.01" layer="51">
 <vertex x="-0.7" y="-1"/>
 <vertex x="-1.2" y="-1"/>
@@ -450,6 +456,14 @@
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="TSOT26" urn="urn:adsk.eagle:package:36803976/2" type="model" library_version="14">
+<description>TSOT26 ( SOT23-6 ?)</description>
+<packageinstances>
+<packageinstance name="TSOT26"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -460,7 +474,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="OSH-CircuitMonkey *">
+<designrules name="OSH-CircuitMonkey-thin">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -468,14 +482,14 @@ die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
 Einstellungen hier und speichern die Design Rules unter 
 einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
+<description language="en">&lt;b&gt;Laen's PCB Order Design Rules - 0.8mm thick&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
 
 13mil via mask limit added.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
-<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mtCopper" value="0.0712mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0712mm"/>
+<param name="mtIsolate" value="0.657mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -492,7 +506,7 @@ Please make sure your boards conform to these design rules.
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
 <param name="msDrill" value="12mil"/>
-<param name="msMicroVia" value="13mil"/>
+<param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -526,7 +540,7 @@ Please make sure your boards conform to these design rules.
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="13mil"/>
+<param name="mlViaStopLimit" value="14mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -654,21 +668,21 @@ Please make sure your boards conform to these design rules.
 <element name="G" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" package="CAST01-2.00MM" package3d_urn="urn:adsk.eagle:package:26716772/2" value="CAST-01X12.00MM" x="0" y="4.5" smashed="yes" rot="SR180">
 <attribute name="NAME" x="1.28" y="4.49634375" size="0.6" layer="25" ratio="15" rot="SR0" align="center"/>
 </element>
-<element name="R9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/3" value="52.3K" x="9.1" y="2.1" smashed="yes" rot="R180">
+<element name="R9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/4" value="52.3K" x="9.1" y="2.1" smashed="yes" rot="R180">
 <attribute name="COST01" value="0.10" x="9.1" y="2.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COST10" value="0.05" x="9.1" y="2.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COST100" value="0.02" x="9.1" y="2.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="9.4" y="2" size="0.8128" layer="125" font="vector" ratio="15" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="9.1" y="2.1" size="0.2" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/3" value="10K" x="9.1" y="0.8" smashed="yes">
+<element name="R10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/4" value="10K" x="9.1" y="0.8" smashed="yes">
 <attribute name="COST01" value="0.10" x="9.1" y="0.8" size="1.778" layer="27" display="off"/>
 <attribute name="COST10" value="0.05" x="9.1" y="0.8" size="1.778" layer="27" display="off"/>
 <attribute name="COST100" value="0.02" x="9.1" y="0.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.4" y="0.8" size="0.8128" layer="125" font="vector" ratio="15" align="center-left"/>
 <attribute name="VALUE" x="9.1" y="0.8" size="0.2" layer="27" align="center"/>
 </element>
-<element name="VR" library="regulators" library_urn="urn:adsk.eagle:library:7189770" package="TSOT26" value="AP6230" x="5.7" y="1.7" smashed="yes" rot="R270">
+<element name="VR" library="regulators" library_urn="urn:adsk.eagle:library:7189770" package="TSOT26" package3d_urn="urn:adsk.eagle:package:36803976/2" value="AP6230" x="5.7" y="1.7" smashed="yes" rot="R270">
 <attribute name="COST01" value="0.50" x="5.7" y="1.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST10" value="0.42" x="5.7" y="1.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST100" value="0.30" x="5.7" y="1.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -677,34 +691,37 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="5.8" y="1.6" size="0.5" layer="125" ratio="15" align="center"/>
 <attribute name="VALUE" value="AP6230" x="5.55" y="1.7" size="0.2" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="10uF" x="1.85" y="2.5" smashed="yes" rot="R90">
+<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/3" value="10uF" x="1.85" y="2.5" smashed="yes" rot="R90">
 <attribute name="COST01" value="0.12" x="1.85" y="2.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COST10" value="0.09" x="1.85" y="2.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COST100" value="0.05" x="1.85" y="2.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="1.85" y="1.9" size="0.8128" layer="125" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="1.85" y="2.5" size="0.2" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="22uF" x="1.8" y="6.5" smashed="yes" rot="R270">
+<element name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/3" value="22uF" x="1.8" y="6.5" smashed="yes" rot="R270">
 <attribute name="COST01" value="0.12" x="1.8" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST10" value="0.09" x="1.8" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST100" value="0.05" x="1.8" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="1.8" y="7" size="0.8128" layer="125" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="1.8" y="6.5" size="0.2" layer="27" rot="R270" align="center"/>
 </element>
-<element name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF" x="9.95" y="3.4" smashed="yes">
+<element name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/3" value="0.1uF" x="9.95" y="3.4" smashed="yes">
 <attribute name="COST01" value="0.12" x="9.95" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="COST10" value="0.09" x="9.95" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="COST100" value="0.05" x="9.95" y="3.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.35" y="3.4" size="0.8128" layer="125" font="vector" ratio="15" align="center-left"/>
 <attribute name="VALUE" x="9.95" y="3.4" size="0.2" layer="27" align="center"/>
 </element>
-<element name="L1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="IND-SRN5040" package3d_urn="urn:adsk.eagle:package:26838113/3" value="4.7uH" x="6.7" y="6.25" smashed="yes">
+<element name="L1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="IND-SRN5040" package3d_urn="urn:adsk.eagle:package:26838113/4" value="4.7uH" x="6.7" y="6.25" smashed="yes">
+<attribute name="COST01" value="0.55" x="6.7" y="6.25" size="1.778" layer="27" display="off"/>
+<attribute name="COST10" value="0.40" x="6.7" y="6.25" size="1.778" layer="27" display="off"/>
+<attribute name="COST100" value="0.35" x="6.7" y="6.25" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Bourns" x="6.7" y="6.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="SRN5040-3R3M" x="6.7" y="6.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.1" y="6.25" size="0.8128" layer="125" font="vector" ratio="15" align="center-left"/>
 <attribute name="VALUE" x="6.7" y="6.25" size="0.2" layer="27" align="center"/>
 </element>
-<element name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="22uF" x="3.1" y="6.5" smashed="yes" rot="R270">
+<element name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/3" value="22uF" x="3.1" y="6.5" smashed="yes" rot="R270">
 <attribute name="COST01" value="0.12" x="3.1" y="6.5" size="0.7" layer="27" rot="R270" display="off"/>
 <attribute name="COST10" value="0.09" x="3.1" y="6.5" size="0.7" layer="27" rot="R270" display="off"/>
 <attribute name="COST100" value="0.05" x="3.1" y="6.5" size="0.7" layer="27" rot="R270" display="off"/>
@@ -731,16 +748,16 @@ Please make sure your boards conform to these design rules.
 <contactref element="R10" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C1" pad="2"/>
-<wire x1="0.7" y1="5" x2="1.8" y2="5" width="0.6" layer="1"/>
+<wire x1="0.7" y1="4.9" x2="1.8" y2="5" width="0.6" layer="1"/>
 <wire x1="1.8" y1="5" x2="1.8" y2="5.748159375" width="0.6" layer="1"/>
-<wire x1="0.7" y1="4" x2="1.85" y2="4" width="0.6" layer="1"/>
+<wire x1="0.7" y1="4.1" x2="1.85" y2="4" width="0.6" layer="1"/>
 <wire x1="1.85" y1="3.251840625" x2="1.85" y2="4" width="0.6" layer="1"/>
 <wire x1="1.8" y1="5.748159375" x2="1.8" y2="4.5" width="0.6" layer="1"/>
 <wire x1="1.8" y1="4.5" x2="1.8" y2="3.301840625" width="0.6" layer="1"/>
 <wire x1="1.8" y1="3.301840625" x2="1.85" y2="3.251840625" width="0.6" layer="1"/>
 <via x="10.7" y="0.8" extent="1-16" drill="0.3048"/>
 <wire x1="0" y1="4.5" x2="0.5" y2="5" width="0.2" layer="1"/>
-<wire x1="0.5" y1="5" x2="0.7" y2="5" width="0.2" layer="1"/>
+<wire x1="0.5" y1="5" x2="0.7" y2="4.9" width="0.2" layer="1"/>
 <via x="3.85" y="3.75" extent="1-16" drill="0.3048"/>
 <wire x1="4.3" y1="2.65" x2="3.3" y2="2.65" width="0.4" layer="1"/>
 <wire x1="3.3" y1="2.65" x2="2.698159375" y2="3.251840625" width="0.4" layer="1"/>
@@ -764,14 +781,14 @@ Please make sure your boards conform to these design rules.
 <contactref element="I" pad="P$2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="VR" pad="3"/>
-<wire x1="0.7" y1="2" x2="0.951840625" y2="1.748159375" width="0.6" layer="1"/>
+<wire x1="0.7" y1="2.1" x2="0.951840625" y2="1.748159375" width="0.6" layer="1"/>
 <wire x1="1.85" y1="1.748159375" x2="0.951840625" y2="1.748159375" width="0.6" layer="1"/>
 <wire x1="4.3" y1="0.75" x2="2.848159375" y2="0.75" width="0.5" layer="1"/>
 <wire x1="2.848159375" y1="0.75" x2="1.85" y2="1.748159375" width="0.5" layer="1"/>
 <wire x1="0" y1="2.5" x2="0.5" y2="3" width="0.2" layer="1"/>
-<wire x1="0.5" y1="3" x2="0.7" y2="3" width="0.2" layer="1"/>
+<wire x1="0.5" y1="3" x2="0.7" y2="2.9" width="0.2" layer="1"/>
 <wire x1="0" y1="2.5" x2="0.5" y2="2" width="0.2" layer="1"/>
-<wire x1="0.5" y1="2" x2="0.7" y2="2" width="0.2" layer="1"/>
+<wire x1="0.5" y1="2" x2="0.7" y2="2.1" width="0.2" layer="1"/>
 </signal>
 <signal name="FB">
 <contactref element="R10" pad="1"/>
@@ -812,14 +829,14 @@ Please make sure your boards conform to these design rules.
 <contactref element="O" pad="P$2"/>
 <contactref element="O" pad="1"/>
 <wire x1="0.95" y1="7.251840625" x2="1.8" y2="7.251840625" width="0.6" layer="1"/>
-<wire x1="0.7" y1="7" x2="0.7" y2="7.001840625" width="0.6" layer="1"/>
+<wire x1="0.7" y1="6.9" x2="0.7" y2="7.001840625" width="0.6" layer="1"/>
 <wire x1="0.95" y1="7.251840625" x2="0.7" y2="7.001840625" width="0.6" layer="1"/>
 <via x="10.7" y="2.1" extent="1-16" drill="0.3048"/>
 <wire x1="4.7" y1="6.85" x2="4.7" y2="6.25" width="0.5" layer="1"/>
 <wire x1="0" y1="6.5" x2="0.5" y2="7" width="0.2" layer="1"/>
-<wire x1="0.5" y1="7" x2="0.7" y2="7" width="0.2" layer="1"/>
+<wire x1="0.5" y1="7" x2="0.7" y2="6.9" width="0.2" layer="1"/>
 <wire x1="0" y1="6.5" x2="0.5" y2="6" width="0.2" layer="1"/>
-<wire x1="0.5" y1="6" x2="0.7" y2="6" width="0.2" layer="1"/>
+<wire x1="0.5" y1="6" x2="0.7" y2="6.1" width="0.2" layer="1"/>
 <via x="6.3" y="5.6" extent="1-16" drill="0.3048"/>
 <wire x1="4.7" y1="6.25" x2="5.35" y2="5.6" width="0.2" layer="1"/>
 <wire x1="5.35" y1="5.6" x2="6.3" y2="5.6" width="0.2" layer="1"/>
@@ -846,11 +863,11 @@ Please make sure your boards conform to these design rules.
 <wire x1="4" y1="5" x2="4" y2="6.75" width="0.2" layer="16"/>
 <wire x1="4" y1="6.75" x2="4.85" y2="7.6" width="0.2" layer="16"/>
 <wire x1="4.85" y1="7.6" x2="10.2" y2="7.6" width="0.2" layer="16"/>
-<wire x1="10.2" y1="7.6" x2="10.8" y2="7" width="0.2" layer="16"/>
+<wire x1="10.2" y1="7.6" x2="10.8" y2="6.9" width="0.2" layer="16"/>
 <wire x1="11.5" y1="6.5" x2="11" y2="7" width="0.2" layer="16"/>
-<wire x1="11" y1="7" x2="10.8" y2="7" width="0.2" layer="16"/>
+<wire x1="11" y1="7" x2="10.8" y2="6.9" width="0.2" layer="16"/>
 <wire x1="11.5" y1="6.5" x2="11.3" y2="6.5" width="0.2" layer="16"/>
-<wire x1="11.3" y1="6.5" x2="10.8" y2="6" width="0.2" layer="16"/>
+<wire x1="11.3" y1="6.5" x2="10.8" y2="6.1" width="0.2" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
