@@ -59,3 +59,12 @@ eagle.epf
 *-backups
 fp-info-cache
 _autosave-*
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.xml
+*~
+.~*
+*.lck
+*.kicad_prl
+
