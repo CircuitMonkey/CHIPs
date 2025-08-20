@@ -1385,7 +1385,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "22uF"
 			(at 173.482 94.234 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1760,7 +1760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "10uF"
 			(at 122.682 94.234 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2519,7 +2519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "22uF"
 			(at 181.102 94.234 0)
 			(do_not_autoplace yes)
 			(effects
