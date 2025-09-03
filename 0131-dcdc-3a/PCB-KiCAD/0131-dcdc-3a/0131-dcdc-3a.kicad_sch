@@ -1458,7 +1458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52.3K"
+		(property "Value" "31.6K"
 			(at 165.1 92.71 90)
 			(do_not_autoplace yes)
 			(effects
