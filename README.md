@@ -12,6 +12,10 @@ If you wish to simply make a module, you can generally upload the Eagle BRD or K
 
 Everyting here is open source with minimal (if at all) license requirements.  Copy, mash-up and use to your hearts content.
 
+## NOTE
+New designs will be placed in a sub-directory, like [Synth] is.  Older designs will be moved eventually into a sub-folder but for now will dominate the file listing you see.
+
+
 Enjoy,
 
 Mark Koch  (Circuit Monkey)
