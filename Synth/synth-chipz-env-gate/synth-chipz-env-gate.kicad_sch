@@ -1657,7 +1657,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "10K"
+	(text "1M"
 		(exclude_from_sim no)
 		(at 109.1771 101.5379 0)
 		(effects
@@ -1668,7 +1668,7 @@
 		)
 		(uuid "6b4fce75-c01a-4360-9502-4d141ef9168a")
 	)
-	(text "10K"
+	(text "1M"
 		(exclude_from_sim no)
 		(at 149.8171 101.5379 0)
 		(effects
@@ -3912,7 +3912,7 @@
 		(dnp no)
 		(uuid "6a5c927e-efb1-4a59-911e-8259c8f8461c")
 		(property "Reference" "C4"
-			(at 157.48 83.82 0)
+			(at 160.02 83.82 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3920,17 +3920,17 @@
 					(thickness 0.254)
 					(bold yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 157.4813 86.5375 0)
+		(property "Value" "2.2uF"
+			(at 160.02 86.36 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "CM_Resistor_Capacitor:C_0603_1608Metric"
