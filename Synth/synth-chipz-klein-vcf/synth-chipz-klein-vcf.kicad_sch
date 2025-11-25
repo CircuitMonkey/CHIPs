@@ -9272,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Value" "27K"
+		(property "Value" "20K"
 			(at 93.98 101.6 90)
 			(do_not_autoplace yes)
 			(effects
