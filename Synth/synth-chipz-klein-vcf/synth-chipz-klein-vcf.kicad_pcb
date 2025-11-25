@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Synth CHIPz module - Klein VCF")
-		(date "2025-11-03")
-		(rev "A")
+		(date "2025-11-22")
+		(rev "B")
 		(company "Circuit Monkey")
 		(comment 1 "MIT License")
 		(comment 2 "https://www.youtube.com/watch?v=jvNNgUl3al0")
@@ -11437,7 +11437,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R22"
-			(at 2.975 -1.2 0)
+			(at 2.975 0.1 0)
 			(layer "F.SilkS")
 			(uuid "efc7aa0e-118e-4df7-a217-50eb748481ae")
 			(effects
@@ -11901,7 +11901,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R21"
-			(at -2.975 -1.2 0)
+			(at -2.975 0 0)
 			(layer "F.SilkS")
 			(uuid "b3e0f2ba-3401-4ba9-b61c-dce174cc3a4d")
 			(effects
@@ -12842,7 +12842,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Rev.A"
+	(gr_text "Rev.B"
 		(at 186.7 73.2 0)
 		(layer "F.SilkS")
 		(uuid "ef4832db-91c8-48d7-8cc5-e154cee47786")
@@ -12853,6 +12853,18 @@
 				(bold yes)
 			)
 			(justify top)
+		)
+	)
+	(gr_text "Rev. B  (12/2025)"
+		(at 167.8 88.1 0)
+		(layer "B.SilkS")
+		(uuid "0eac2032-0b58-4811-a164-4d29af6b9cfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "Based on a circuit by: Moritz Klein"
@@ -12867,7 +12879,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "PCB Design by: Circuit Monkey (11/2025)"
+	(gr_text "PCB Design by: Circuit Monkey"
 		(at 167.7 89.7 0)
 		(layer "B.SilkS")
 		(uuid "45a11e18-6cc6-407e-ba46-e0c237358dfc")
