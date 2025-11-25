@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Synth CHIPz module - Klein VCF")
-		(date "2025-11-02")
-		(rev "A")
+		(date "2025-11-22")
+		(rev "B")
 		(company "Circuit Monkey")
 		(comment 1 "MIT License")
 		(comment 2 "https://www.youtube.com/watch?v=jvNNgUl3al0")
