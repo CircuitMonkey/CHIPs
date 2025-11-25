@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CHIPz - Envelope Gate")
-		(date "2025-11-04")
-		(rev "A")
+		(date "2025-11-22")
+		(rev "B")
 		(company "Circuit Monkey")
 		(comment 1 "Based upon a Moog EG")
 	)
@@ -1656,6 +1656,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "TODO:\n- Add corner faceplate mounts. And update faceplate design.\n"
+		(exclude_from_sim no)
+		(at 177.8 162.56 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left bottom)
+		)
+		(uuid "469b40e8-0314-41c6-a423-7ee6d900d1b7")
 	)
 	(text "1M"
 		(exclude_from_sim no)
