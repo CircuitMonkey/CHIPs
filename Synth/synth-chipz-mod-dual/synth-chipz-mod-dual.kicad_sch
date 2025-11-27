@@ -1338,6 +1338,19 @@
 		(uuid 42bce4ab-a9c1-4b85-a42d-32497870ac58)
 	)
 	(circle
+		(center 176.53 46.99)
+		(radius 1.27)
+		(stroke
+			(width 0.762)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 44b0e65b-3434-4d79-ae5f-2ad767843e36)
+	)
+	(circle
 		(center 81.28 78.74)
 		(radius 0.5168)
 		(stroke
@@ -1414,6 +1427,32 @@
 			(type none)
 		)
 		(uuid a57fc2f7-00d8-4305-9301-6e43093886d0)
+	)
+	(circle
+		(center 210.82 78.74)
+		(radius 1.27)
+		(stroke
+			(width 0.762)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b32e15f4-45cd-45c8-bf2a-1ad36175b81c)
+	)
+	(circle
+		(center 176.53 35.56)
+		(radius 1.27)
+		(stroke
+			(width 0.762)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b8cdae1a-2e59-4d65-a5d4-304091b135d7)
 	)
 	(circle
 		(center 162.56 39.37)
@@ -1616,7 +1655,7 @@
 	)
 	(text "PWM_CV"
 		(exclude_from_sim no)
-		(at 173.0413 35.0589 0)
+		(at 171.9773 34.9571 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1638,7 +1677,7 @@
 	)
 	(text "VCO_MOD_CV"
 		(exclude_from_sim no)
-		(at 171.6239 46.4789 0)
+		(at 170.6331 46.3355 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -3026,7 +3065,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.969 78.7396) (xy 208.9056 78.7414)
+			(xy 199.969 78.7396) (xy 209.55 78.74)
 		)
 		(stroke
 			(width 0)
