@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CHIPz - Modulator VCO/VCF")
-		(date "2025-11-04")
-		(rev "A")
+		(date "2025-12-01")
+		(rev "B")
 		(company "Circuit Monkey")
 		(comment 1 "Based upon a Moog circuit")
 	)

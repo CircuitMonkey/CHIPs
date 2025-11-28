@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "CHIPz - VCO/VCF Modulator")
-		(date "2025-11-05")
-		(rev "A")
+		(date "2025-12-01")
+		(rev "B")
 		(company "Circuit Monkey")
 		(comment 1 "based on a Moog design")
 	)
@@ -3538,7 +3538,7 @@
 			)
 		)
 	)
-	(gr_text "Rev. A (2025/11)"
+	(gr_text "Rev. B (2025/12)"
 		(at 150 102.8 0)
 		(layer "B.SilkS")
 		(uuid "2570e953-6f28-4ac7-ae38-02a301a26481")
