@@ -3423,7 +3423,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 159 102.5 0)
+		(at 159 99.95 0)
 		(layer "F.SilkS")
 		(uuid "383dc940-d129-48b9-94c9-a214cba89c7a")
 		(effects
@@ -3458,7 +3458,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 158.9 100 0)
+		(at 158.9 102.4 0)
 		(layer "F.SilkS")
 		(uuid "699a7592-aafb-48c4-a7e8-05e689bae2fe")
 		(effects
